@@ -38,6 +38,9 @@ RUN yum install -y \
     gcc \
     make \
     perl \
+    perl-core \
+    pcre-devel \
+    wget \
   && yum clean all
 
 # Install Python from source
@@ -45,11 +48,23 @@ RUN yum install -y \
 RUN yum install -y \
     bzip2-devel \
     libffi-devel \
-    openssl-devel \
+#    openssl-devel \
     readline-devel \
     sqlite-devel \
     zlib-devel \
+    uuid-devel \
+    lzma-devel \
   && yum clean all
+
+ENV OPENSSL_VERSION 1.1.1k
+RUN curl -O https://ftp.openssl.org/source/openssl-${OPENSSL_VERSION}.tar.gz && \
+    tar xf openssl-${OPENSSL_VERSION}.tar.gz && \
+    pushd openssl-${OPENSSL_VERSION} && \
+    ./config --prefix=/usr && \
+    make -j && \
+    make install && \
+    popd && \
+    rm -rf openssl-${OPENSSL_VERSION} openssl-${OPENSSL_VERSION}.tar.gz
 
 
 ENV PYTHON_VERSION 3.10.9

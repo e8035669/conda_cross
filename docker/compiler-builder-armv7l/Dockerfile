@@ -1,6 +1,50 @@
 FROM cfs-builder-armv7l
 
-RUN apt-get update && \
-    apt-get install -y automake texinfo wget make unzip git autoconf bison flex help2man gettext file gawk libtool-bin && \
-    rm -rf /var/lib/apt/lists/*
+# base packages
+RUN yum install -y \
+    file \
+    libX11 \
+    libXau \
+    libxcb \
+    libXdmcp \
+    libXext \
+    libXrender \
+    libXt \
+    mesa-libGL \
+    mesa-libGLU \
+    openssh-clients \
+    patch \
+    rsync \
+    util-linux \
+    wget \
+    which \
+    bzip2 \
+    xorg-x11-server-Xvfb \
+    && yum clean all
+
+# ctng packages
+RUN yum install -y \
+    autoconf \
+    gperf  \
+    bison  \
+    flex  \
+    texinfo  \
+    help2man  \
+    gcc-c++  \
+    patch \
+    ncurses-devel  \
+    python-devel  \
+    perl-Thread-Queue  \
+    bzip2  \
+    git \
+   && yum clean all
+
+#crosstool-ng packages
+RUN yum install -y \
+    automake \
+    libtool \
+    make \
+    unzip \
+    && yum clean all
+
 
