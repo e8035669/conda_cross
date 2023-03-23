@@ -1,0 +1,29 @@
+cdt_name:
+- cos6
+centos_machine:
+- ppc64le
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+cross_target_platform:
+- linux-ppc64le
+ctng_vendor:
+- conda
+docker_image:
+- quay.io/condaforge/linux-anvil-comp7
+sysroot_cdt_arch:
+- ppc64le
+sysroot_cdt_name:
+- cos7
+target_machine:
+- powerpc64le
+target_platform:
+- linux-64
+zip_keys:
+- - cdt_name
+  - docker_image
+- - target_machine
+  - cross_target_platform
+  - centos_machine
+  - sysroot_cdt_arch

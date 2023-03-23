@@ -1,0 +1,35 @@
+gcc_machine:
+  - armv7l
+gcc_vendor:
+  - conda
+gcc_version:
+  - 12.2.0
+gcc_maj_ver:
+  - 12
+libgfortran_soname:
+  - 5
+binutils_version:
+  - 2.40
+cross_target_platform:
+  - linux-armv7l
+old_gcc_vendor:
+  - conda_cos7
+glibc_version:
+  - 2.17
+# openmp versions
+openmp_ver:
+  - 4.5
+libgomp_ver:
+  - 1.0.0
+_libgcc_mutex:
+  - 0.1 conda_forge
+use_system_gcc:
+  - True
+zip_keys:
+  - - glibc_version
+    - old_gcc_vendor
+    - gcc_machine
+    - cross_target_platform
+  - - gcc_version
+    - gcc_maj_ver
+    - libgfortran_soname
