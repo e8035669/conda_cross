@@ -1,0 +1,10 @@
+services:
+  compiler:
+    image: compiler-builder-armv7l
+    build: docker/compiler-builder-armv7l
+    volumes:
+      - ./recipes:/recipes
+      - ./conda4armv7l:/conda4armv7l
+      - ./ctng:/ctng
+    working_dir: /recipes
+
