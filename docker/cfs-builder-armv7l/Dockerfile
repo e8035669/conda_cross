@@ -27,6 +27,49 @@ RUN curl -L -O https://github.com/Kitware/CMake/releases/download/v${CMAKE_VERSI
     popd && \
     rm -rf cmake-${CMAKE_VERSION}.tar.gz cmake-${CMAKE_VERSION}
 
+ENV GCC_VERSION 12.2.0
+RUN curl -L -O https://ftp.gnu.org/gnu/gcc/gcc-${GCC_VERSION}/gcc-${GCC_VERSION}.tar.gz && \
+    tar xf gcc-${GCC_VERSION}.tar.gz && \
+    cd gcc-${GCC_VERSION} && \
+    ./contrib/download_prerequisites && \
+    mkdir build && \
+    cd build && \
+    ../configure --prefix=/usr/local \
+        --with-abi=aapcs-linux \
+        # --with-cpu=cortex-a53 \
+        # --with-fpu=neon-fp-armv8 \
+        --with-float=hard \
+        --with-mode=arm \
+        --enable-default-pie \
+        --enable-languages=c,c++,fortran,objc,obj-c++ \
+        --enable-__cxa_atexit \
+        --disable-libmudflap \
+        --enable-libgomp \
+        --disable-libssp \
+        --enable-libquadmath \
+        --enable-libquadmath-support \
+        --enable-libsanitizer \
+        --enable-lto \
+        --enable-threads=posix \
+        --enable-target-optspace \
+        --enable-plugin \
+        --enable-gold \
+        --disable-nls \
+        --disable-bootstrap \
+        --disable-multilib \
+        --enable-long-long && \
+    make -j8 && \
+    make install && \
+    cd ../../ && \
+    rm -rf gcc-${GCC_VERSION} gcc-${GCC_VERSION}.tar.gz
+
+RUN CC=/usr/local/bin/gcc CXX=/usr/local/bin/g++ ${CFS_PREFIX}/bin/python3 -m pip install lief
+
+RUN echo "/usr/local/lib" >> /etc/ld.so.conf.d/sys-libs.conf && \
+    echo "/usr/lib" >> /etc/ld.so.conf.d/sys-libs.conf && \
+    echo "/lib" >> /etc/ld.so.conf.d/sys-libs.conf && \
+    ldconfig
+
 RUN ${CFS_PREFIX}/bin/python3 -m pip install \
     beautifulsoup4 \
     chardet \

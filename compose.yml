@@ -1,10 +1,40 @@
 services:
-  compiler:
+  comp1:
     image: compiler-builder-armv7l
     build: docker/compiler-builder-armv7l
+    stdin_open: true
+    tty: true
     volumes:
       - ./recipes:/recipes
       - ./conda4armv7l:/conda4armv7l
       - ./ctng:/ctng
+      - ./cdt_recipes:/cdt_recipes
     working_dir: /recipes
+  pkg:
+    image: pkg-builder-armv7l
+    build: docker/pkg-builder-armv7l
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./recipes:/recipes
+      - ./conda4armv7l:/conda4armv7l
+      - ./ctng:/ctng
+      - ./cdt_recipes:/cdt_recipes
+    working_dir: /recipes
+  comp2:
+    image: compiler-builder-armv7l
+    build: docker/compiler-builder-armv7l
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./anaconda-recipes:/anaconda-recipes
+    working_dir: /anaconda-recipes
+  pkg2:
+    image: pkg-builder-armv7l
+    build: docker/pkg-builder-armv7l
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./anaconda-recipes:/anaconda-recipes
+    working_dir: /anaconda-recipes
 
