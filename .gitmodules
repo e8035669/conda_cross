@@ -1,3 +1,21 @@
 [submodule "recipes2/cdt-builds"]
 	path = recipes2/cdt-builds
 	url = git@github.com:e8035669acarmv7/cdt-builds.git
+[submodule "recipes2/bootstrap/binutils-feedstock"]
+	path = recipes2/bootstrap/binutils-feedstock
+	url = git@github.com:e8035669acarmv7/binutils-feedstock.git
+	branch = bootstrap
+[submodule "recipes2/bootstrap/linux-sysroot-feedstock"]
+	path = recipes2/bootstrap/linux-sysroot-feedstock
+	url = git@github.com:e8035669acarmv7/linux-sysroot-feedstock.git
+	branch = bootstrap
+[submodule "recipes2/bootstrap/shellcheck-feedstock"]
+	path = recipes2/bootstrap/shellcheck-feedstock
+	url = git@github.com:e8035669acarmv7/shellcheck-feedstock.git
+[submodule "recipes2/bootstrap/ctng-compilers-feedstock"]
+	path = recipes2/bootstrap/ctng-compilers-feedstock
+	url = git@github.com:e8035669acarmv7/ctng-compilers-feedstock.git
+	branch = bootstrap
+[submodule "recipes2/bootstrap/ctng-compiler-activation-feedstock"]
+	path = recipes2/bootstrap/ctng-compiler-activation-feedstock
+	url = git@github.com:e8035669acarmv7/ctng-compiler-activation-feedstock.git
