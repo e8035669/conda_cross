@@ -1,0 +1,3 @@
+[submodule "recipes2/cdt-builds"]
+	path = recipes2/cdt-builds
+	url = git@github.com:e8035669acarmv7/cdt-builds.git
