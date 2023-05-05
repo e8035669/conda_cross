@@ -17,7 +17,7 @@ RUN curl -L -O https://github.com/NixOS/patchelf/releases/download/${PATCHELF_VE
 #     cd .. && \
 #     rm -rf patchelf-${PATCHELF_VERSION} patchelf-${PATCHELF_VERSION}.tar.gz
 
-ENV CMAKE_VERSION 3.8.2
+ENV CMAKE_VERSION 3.26.3
 RUN curl -L -O https://github.com/Kitware/CMake/releases/download/v${CMAKE_VERSION}/cmake-${CMAKE_VERSION}.tar.gz && \
     tar xf cmake-${CMAKE_VERSION}.tar.gz && \
     pushd cmake-${CMAKE_VERSION} && \
@@ -36,6 +36,7 @@ RUN curl -L -O https://ftp.gnu.org/gnu/gcc/gcc-${GCC_VERSION}/gcc-${GCC_VERSION}
     cd build && \
     ../configure --prefix=/usr/local \
         --with-abi=aapcs-linux \
+        # --with-arch=armv7 \
         # --with-cpu=cortex-a53 \
         # --with-fpu=neon-fp-armv8 \
         --with-float=hard \
@@ -62,6 +63,7 @@ RUN curl -L -O https://ftp.gnu.org/gnu/gcc/gcc-${GCC_VERSION}/gcc-${GCC_VERSION}
     make install && \
     cd ../../ && \
     rm -rf gcc-${GCC_VERSION} gcc-${GCC_VERSION}.tar.gz
+
 
 RUN CC=/usr/local/bin/gcc CXX=/usr/local/bin/g++ ${CFS_PREFIX}/bin/python3 -m pip install lief
 
@@ -101,5 +103,16 @@ RUN curl -L -O https://github.com/conda/conda-package-streaming/archive/refs/tag
     ${CFS_PREFIX}/bin/python3 -m pip install . && \
     cd .. && \
     rm -rf conda-package-streaming-${CONDA_PACKAGE_STREAMING_VERSION} v${CONDA_PACKAGE_STREAMING_VERSION}.tar.gz
+
+# ENV MAMBA_VERSION=1.4.2 MAMBA_FNAME=2023.04.06
+# RUN curl -L -O https://github.com/mamba-org/mamba/archive/refs/tags/${MAMBA_FNAME}.tar.gz && \
+#     tar xvf ${MAMBA_FNAME}.tar.gz && \
+#     cd ${MAMBA_FNAME} && \
+#     mkdir build && \
+#     cd build && \
+#     cmake -DCMAKE_INSTALL_PREFIX=${CFS_PREFIX} .. && \
+#     make install && \
+#     cd ../../ && \
+#     rm -rf ${MAMBA_FNAME} ${MAMBA_FNAME}.tar.gz
 
 

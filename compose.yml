@@ -27,14 +27,21 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - ./anaconda-recipes:/anaconda-recipes
-    working_dir: /anaconda-recipes
+      - ./recipes2:/recipes2
+    working_dir: /recipes2
   pkg2:
     image: pkg-builder-armv7l
     build: docker/pkg-builder-armv7l
     stdin_open: true
     tty: true
     volumes:
-      - ./anaconda-recipes:/anaconda-recipes
-    working_dir: /anaconda-recipes
+      - ./recipes2:/recipes2
+    working_dir: /recipes2
+  test:
+    image: arm32v7/centos:7
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./recipes2:/recipes2
+    working_dir: /recipes2
 

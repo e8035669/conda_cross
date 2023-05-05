@@ -51,6 +51,11 @@ RUN yum install -y \
     unzip \
     && yum clean all
 
+ENV SHELLCHECK_VERSION 0.9.0
+RUN curl -L -O https://github.com/koalaman/shellcheck/releases/download/v${SHELLCHECK_VERSION}/shellcheck-v${SHELLCHECK_VERSION}.linux.armv6hf.tar.xz && \
+    tar xvf shellcheck-v${SHELLCHECK_VERSION}.linux.armv6hf.tar.xz && \
+    cp shellcheck-v${SHELLCHECK_VERSION}/shellcheck /usr/local/bin/shellcheck && \
+    rm -rf shellcheck-v${SHELLCHECK_VERSION}.linux.armv6hf.tar.xz shellcheck-v${SHELLCHECK_VERSION}
 
 
 
