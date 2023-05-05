@@ -19,3 +19,12 @@
 [submodule "recipes2/bootstrap/ctng-compiler-activation-feedstock"]
 	path = recipes2/bootstrap/ctng-compiler-activation-feedstock
 	url = git@github.com:e8035669acarmv7/ctng-compiler-activation-feedstock.git
+[submodule "recipes2/bootstrap2/binutils-feedstock"]
+	path = recipes2/bootstrap2/binutils-feedstock
+	url = git@github.com:e8035669acarmv7/binutils-feedstock.git
+[submodule "recipes2/bootstrap2/ctng-compiler-activation-feedstock"]
+	path = recipes2/bootstrap2/ctng-compiler-activation-feedstock
+	url = git@github.com:e8035669acarmv7/ctng-compiler-activation-feedstock.git
+[submodule "recipes2/bootstrap2/ctng-compilers-feedstock"]
+	path = recipes2/bootstrap2/ctng-compilers-feedstock
+	url = git@github.com:e8035669acarmv7/ctng-compilers-feedstock.git

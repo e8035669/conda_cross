@@ -1,0 +1,17 @@
+
+c_compiler_version:
+  - 12.2.0
+cxx_compiler_version:
+  - 12.2.0
+fortran_compiler_version:
+  - 12.2.0
+
+cdt_name:
+  - 'cos7'
+
+cdt_arch:
+  - 'armv7l'
+
+BUILD:
+  - "armv7-conda_cos7-linux-gnueabihf"
+
