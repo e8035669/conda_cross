@@ -28,3 +28,168 @@
 [submodule "recipes2/bootstrap2/ctng-compilers-feedstock"]
 	path = recipes2/bootstrap2/ctng-compilers-feedstock
 	url = git@github.com:e8035669acarmv7/ctng-compilers-feedstock.git
+[submodule "recipes2/bootstrap3/autoconf-feedstock"]
+	path = recipes2/bootstrap3/autoconf-feedstock
+	url = git@github.com:e8035669acarmv7/autoconf-feedstock.git
+[submodule "recipes2/bootstrap3/automake-feedstock"]
+	path = recipes2/bootstrap3/automake-feedstock
+	url = git@github.com:e8035669acarmv7/automake-feedstock.git
+[submodule "recipes2/bootstrap3/bison-feedstock"]
+	path = recipes2/bootstrap3/bison-feedstock
+	url = git@github.com:e8035669acarmv7/bison-feedstock.git
+[submodule "recipes2/bootstrap3/bzip2-feedstock"]
+	path = recipes2/bootstrap3/bzip2-feedstock
+	url = git@github.com:e8035669acarmv7/bzip2-feedstock.git
+[submodule "recipes2/bootstrap3/ca-certificates-feedstock"]
+	path = recipes2/bootstrap3/ca-certificates-feedstock
+	url = git@github.com:e8035669acarmv7/ca-certificates-feedstock.git
+[submodule "recipes2/bootstrap3/c-ares-feedstock"]
+	path = recipes2/bootstrap3/c-ares-feedstock
+	url = git@github.com:e8035669acarmv7/c-ares-feedstock.git
+[submodule "recipes2/bootstrap3/cmake-feedstock"]
+	path = recipes2/bootstrap3/cmake-feedstock
+	url = git@github.com:e8035669acarmv7/cmake-feedstock.git
+[submodule "recipes2/bootstrap3/cmake-no-system-feedstock"]
+	path = recipes2/bootstrap3/cmake-no-system-feedstock
+	url = git@github.com:e8035669acarmv7/cmake-no-system-feedstock.git
+[submodule "recipes2/bootstrap3/coreutils-feedstock"]
+	path = recipes2/bootstrap3/coreutils-feedstock
+	url = git@github.com:e8035669acarmv7/coreutils-feedstock.git
+[submodule "recipes2/bootstrap3/curl-feedstock"]
+	path = recipes2/bootstrap3/curl-feedstock
+	url = git@github.com:e8035669acarmv7/curl-feedstock.git
+[submodule "recipes2/bootstrap3/expat-feedstock"]
+	path = recipes2/bootstrap3/expat-feedstock
+	url = git@github.com:e8035669acarmv7/expat-feedstock.git
+[submodule "recipes2/bootstrap3/file-feedstock"]
+	path = recipes2/bootstrap3/file-feedstock
+	url = git@github.com:e8035669acarmv7/file-feedstock.git
+[submodule "recipes2/bootstrap3/flex-feedstock"]
+	path = recipes2/bootstrap3/flex-feedstock
+	url = git@github.com:e8035669acarmv7/flex-feedstock.git
+[submodule "recipes2/bootstrap3/gawk-feedstock"]
+	path = recipes2/bootstrap3/gawk-feedstock
+	url = git@github.com:e8035669acarmv7/gawk-feedstock.git
+[submodule "recipes2/bootstrap3/gettext-feedstock"]
+	path = recipes2/bootstrap3/gettext-feedstock
+	url = git@github.com:e8035669acarmv7/gettext-feedstock.git
+[submodule "recipes2/bootstrap3/gnuconfig-feedstock"]
+	path = recipes2/bootstrap3/gnuconfig-feedstock
+	url = git@github.com:e8035669acarmv7/gnuconfig-feedstock.git
+[submodule "recipes2/bootstrap3/help2man-feedstock"]
+	path = recipes2/bootstrap3/help2man-feedstock
+	url = git@github.com:e8035669acarmv7/help2man-feedstock.git
+[submodule "recipes2/bootstrap3/keyutils-feedstock"]
+	path = recipes2/bootstrap3/keyutils-feedstock
+	url = git@github.com:e8035669acarmv7/keyutils-feedstock.git
+[submodule "recipes2/bootstrap3/krb5-feedstock"]
+	path = recipes2/bootstrap3/krb5-feedstock
+	url = git@github.com:e8035669acarmv7/krb5-feedstock.git
+[submodule "recipes2/bootstrap3/libedit-feedstock"]
+	path = recipes2/bootstrap3/libedit-feedstock
+	url = git@github.com:e8035669acarmv7/libedit-feedstock.git
+[submodule "recipes2/bootstrap3/libev-feedstock"]
+	path = recipes2/bootstrap3/libev-feedstock
+	url = git@github.com:e8035669acarmv7/libev-feedstock.git
+[submodule "recipes2/bootstrap3/libffi-feedstock"]
+	path = recipes2/bootstrap3/libffi-feedstock
+	url = git@github.com:e8035669acarmv7/libffi-feedstock.git
+[submodule "recipes2/bootstrap3/libidn2-feedstock"]
+	path = recipes2/bootstrap3/libidn2-feedstock
+	url = git@github.com:e8035669acarmv7/libidn2-feedstock.git
+[submodule "recipes2/bootstrap3/libnsl-feedstock"]
+	path = recipes2/bootstrap3/libnsl-feedstock
+	url = https://github.com/conda-forge/libnsl-feedstock.git
+[submodule "recipes2/bootstrap3/libssh2-feedstock"]
+	path = recipes2/bootstrap3/libssh2-feedstock
+	url = git@github.com:e8035669acarmv7/libssh2-feedstock.git
+[submodule "recipes2/bootstrap3/libtool-feedstock"]
+	path = recipes2/bootstrap3/libtool-feedstock
+	url = git@github.com:e8035669acarmv7/libtool-feedstock.git
+[submodule "recipes2/bootstrap3/libunistring-feedstock"]
+	path = recipes2/bootstrap3/libunistring-feedstock
+	url = git@github.com:e8035669acarmv7/libunistring-feedstock.git
+[submodule "recipes2/bootstrap3/libuuid-feedstock"]
+	path = recipes2/bootstrap3/libuuid-feedstock
+	url = git@github.com:e8035669acarmv7/libuuid-feedstock.git
+[submodule "recipes2/bootstrap3/libuv-feedstock"]
+	path = recipes2/bootstrap3/libuv-feedstock
+	url = git@github.com:e8035669acarmv7/libuv-feedstock.git
+[submodule "recipes2/bootstrap3/lz4-c-feedstock"]
+	path = recipes2/bootstrap3/lz4-c-feedstock
+	url = git@github.com:e8035669acarmv7/lz4-c-feedstock.git
+[submodule "recipes2/bootstrap3/m4-feedstock"]
+	path = recipes2/bootstrap3/m4-feedstock
+	url = https://github.com/conda-forge/m4-feedstock.git
+[submodule "recipes2/bootstrap3/make-feedstock"]
+	path = recipes2/bootstrap3/make-feedstock
+	url = git@github.com:e8035669acarmv7/make-feedstock.git
+[submodule "recipes2/bootstrap3/ncurses-feedstock"]
+	path = recipes2/bootstrap3/ncurses-feedstock
+	url = git@github.com:e8035669acarmv7/ncurses-feedstock.git
+[submodule "recipes2/bootstrap3/nghttp2-feedstock"]
+	path = recipes2/bootstrap3/nghttp2-feedstock
+	url = git@github.com:e8035669acarmv7/nghttp2-feedstock.git
+[submodule "recipes2/bootstrap3/ninja-feedstock"]
+	path = recipes2/bootstrap3/ninja-feedstock
+	url = git@github.com:e8035669acarmv7/ninja-feedstock.git
+[submodule "recipes2/bootstrap3/openssl-feedstock"]
+	path = recipes2/bootstrap3/openssl-feedstock
+	url = git@github.com:e8035669acarmv7/openssl-feedstock.git
+[submodule "recipes2/bootstrap3/patchelf-feedstock"]
+	path = recipes2/bootstrap3/patchelf-feedstock
+	url = git@github.com:e8035669acarmv7/patchelf-feedstock.git
+[submodule "recipes2/bootstrap3/patch-feedstock"]
+	path = recipes2/bootstrap3/patch-feedstock
+	url = git@github.com:e8035669acarmv7/patch-feedstock.git
+[submodule "recipes2/bootstrap3/perl-feedstock"]
+	path = recipes2/bootstrap3/perl-feedstock
+	url = git@github.com:e8035669acarmv7/perl-feedstock.git
+[submodule "recipes2/bootstrap3/pkg-config-feedstock"]
+	path = recipes2/bootstrap3/pkg-config-feedstock
+	url = git@github.com:e8035669acarmv7/pkg-config-feedstock.git
+[submodule "recipes2/bootstrap3/python-feedstock"]
+	path = recipes2/bootstrap3/python-feedstock
+	url = git@github.com:e8035669acarmv7/python-feedstock.git
+[submodule "recipes2/bootstrap3/readline-feedstock"]
+	path = recipes2/bootstrap3/readline-feedstock
+	url = git@github.com:e8035669acarmv7/readline-feedstock.git
+[submodule "recipes2/bootstrap3/rhash-feedstock"]
+	path = recipes2/bootstrap3/rhash-feedstock
+	url = git@github.com:e8035669acarmv7/rhash-feedstock.git
+[submodule "recipes2/bootstrap3/ripgrep-feedstock"]
+	path = recipes2/bootstrap3/ripgrep-feedstock
+	url = git@github.com:e8035669acarmv7/ripgrep-feedstock.git
+[submodule "recipes2/bootstrap3/rust-activation-feedstock"]
+	path = recipes2/bootstrap3/rust-activation-feedstock
+	url = git@github.com:e8035669acarmv7/rust-activation-feedstock.git
+[submodule "recipes2/bootstrap3/rust-feedstock"]
+	path = recipes2/bootstrap3/rust-feedstock
+	url = git@github.com:e8035669acarmv7/rust-feedstock.git
+[submodule "recipes2/bootstrap3/sqlite-feedstock"]
+	path = recipes2/bootstrap3/sqlite-feedstock
+	url = git@github.com:e8035669acarmv7/sqlite-feedstock.git
+[submodule "recipes2/bootstrap3/texinfo-feedstock"]
+	path = recipes2/bootstrap3/texinfo-feedstock
+	url = git@github.com:e8035669acarmv7/texinfo-feedstock.git
+[submodule "recipes2/bootstrap3/tk-feedstock"]
+	path = recipes2/bootstrap3/tk-feedstock
+	url = git@github.com:e8035669acarmv7/tk-feedstock.git
+[submodule "recipes2/bootstrap3/unzip-feedstock"]
+	path = recipes2/bootstrap3/unzip-feedstock
+	url = git@github.com:e8035669acarmv7/unzip-feedstock.git
+[submodule "recipes2/bootstrap3/wget-feedstock"]
+	path = recipes2/bootstrap3/wget-feedstock
+	url = git@github.com:e8035669acarmv7/wget-feedstock.git
+[submodule "recipes2/bootstrap3/xz-feedstock"]
+	path = recipes2/bootstrap3/xz-feedstock
+	url = git@github.com:e8035669acarmv7/xz-feedstock.git
+[submodule "recipes2/bootstrap3/yaml-feedstock"]
+	path = recipes2/bootstrap3/yaml-feedstock
+	url = git@github.com:e8035669acarmv7/yaml-feedstock.git
+[submodule "recipes2/bootstrap3/zlib-feedstock"]
+	path = recipes2/bootstrap3/zlib-feedstock
+	url = git@github.com:e8035669acarmv7/zlib-feedstock.git
+[submodule "recipes2/bootstrap3/zstd-feedstock"]
+	path = recipes2/bootstrap3/zstd-feedstock
+	url = git@github.com:e8035669acarmv7/zstd-feedstock.git
