@@ -617,18 +617,23 @@
 [submodule "recipes3/cross/binutils-feedstock"]
 	path = recipes3/cross/binutils-feedstock
 	url = ../../e8035669acarmv7/binutils-feedstock.git
+	branch = main
 [submodule "recipes3/cross/bison-feedstock"]
 	path = recipes3/cross/bison-feedstock
 	url = ../../e8035669acarmv7/bison-feedstock.git
+	branch = main
 [submodule "recipes3/cross/ctng-compiler-activation-feedstock"]
 	path = recipes3/cross/ctng-compiler-activation-feedstock
 	url = ../../e8035669acarmv7/ctng-compiler-activation-feedstock.git
+	branch = main
 [submodule "recipes3/cross/ctng-compilers-feedstock"]
 	path = recipes3/cross/ctng-compilers-feedstock
 	url = ../../e8035669acarmv7/ctng-compilers-feedstock.git
+	branch = bootstrap
 [submodule "recipes3/cross/krb5-feedstock"]
 	path = recipes3/cross/krb5-feedstock
 	url = ../../e8035669acarmv7/krb5-feedstock.git
+	branch = main
 [submodule "recipes3/cross2/cffi-feedstock"]
 	path = recipes3/cross2/cffi-feedstock
 	url = ../../e8035669acarmv7/cffi-feedstock.git
