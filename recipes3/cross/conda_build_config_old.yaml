@@ -1,0 +1,17 @@
+
+c_compiler:
+  - gcc
+
+cxx_compiler:
+  - gxx
+
+channel_sources:
+  - conda-forge
+channel_targets:
+  - e8035669acarmv7 main
+
+target_platform:
+  - linux-armv7l
+
+cross_target_platform:
+  - linux-armv7l

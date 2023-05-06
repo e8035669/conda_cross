@@ -463,3 +463,122 @@
 [submodule "recipes2/packages/zstandard-feedstock"]
 	path = recipes2/packages/zstandard-feedstock
 	url = ../../e8035669acarmv7/zstandard-feedstock.git
+[submodule "recipes3/cross/binutils-feedstock"]
+	path = recipes3/cross/binutils-feedstock
+	url = git@github.com:e8035669acarmv7/binutils-feedstock.git
+[submodule "recipes3/cross/bison-feedstock"]
+	path = recipes3/cross/bison-feedstock
+	url = git@github.com:e8035669acarmv7/bison-feedstock.git
+[submodule "recipes3/cross/ctng-compiler-activation-feedstock"]
+	path = recipes3/cross/ctng-compiler-activation-feedstock
+	url = git@github.com:e8035669acarmv7/ctng-compiler-activation-feedstock.git
+[submodule "recipes3/cross/ctng-compilers-feedstock"]
+	path = recipes3/cross/ctng-compilers-feedstock
+	url = git@github.com:e8035669acarmv7/ctng-compilers-feedstock.git
+[submodule "recipes3/cross/krb5-feedstock"]
+	path = recipes3/cross/krb5-feedstock
+	url = git@github.com:e8035669acarmv7/krb5-feedstock.git
+[submodule "recipes3/cross2/cffi-feedstock"]
+	path = recipes3/cross2/cffi-feedstock
+	url = git@github.com:e8035669acarmv7/cffi-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/cross-python-feedstock"]
+	path = recipes3/cross2/cross-python-feedstock
+	url = git@github.com:e8035669acarmv7/cross-python-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/cryptography-feedstock"]
+	path = recipes3/cross2/cryptography-feedstock
+	url = git@github.com:e8035669acarmv7/cryptography-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/cython-feedstock"]
+	path = recipes3/cross2/cython-feedstock
+	url = git@github.com:e8035669acarmv7/cython-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/frozenlist-feedstock"]
+	path = recipes3/cross2/frozenlist-feedstock
+	url = git@github.com:e8035669acarmv7/frozenlist-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/libxml2-feedstock"]
+	path = recipes3/cross2/libxml2-feedstock
+	url = git@github.com:e8035669acarmv7/libxml2-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/lief-feedstock"]
+	path = recipes3/cross2/lief-feedstock
+	url = git@github.com:e8035669acarmv7/lief-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/multidict-feedstock"]
+	path = recipes3/cross2/multidict-feedstock
+	url = git@github.com:e8035669acarmv7/multidict-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/pillow-feedstock"]
+	path = recipes3/cross2/pillow-feedstock
+	url = git@github.com:e8035669acarmv7/pillow-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/psutil-feedstock"]
+	path = recipes3/cross2/psutil-feedstock
+	url = git@github.com:e8035669acarmv7/psutil-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/pybind11-feedstock"]
+	path = recipes3/cross2/pybind11-feedstock
+	url = git@github.com:e8035669acarmv7/pybind11-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/pycosat-feedstock"]
+	path = recipes3/cross2/pycosat-feedstock
+	url = git@github.com:e8035669acarmv7/pycosat-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/python-3.9.15"]
+	path = recipes3/cross2/python-3.9.15
+	url = git@github.com:e8035669acarmv7/python-feedstock.git
+	branch = v3.9.15
+[submodule "recipes3/cross2/python-3.9.16"]
+	path = recipes3/cross2/python-3.9.16
+	url = git@github.com:e8035669acarmv7/python-feedstock.git
+	branch = 3.9
+[submodule "recipes3/cross2/python_abi-feedstock"]
+	path = recipes3/cross2/python_abi-feedstock
+	url = git@github.com:e8035669acarmv7/python_abi-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/python-feedstock"]
+	path = recipes3/cross2/python-feedstock
+	url = git@github.com:e8035669acarmv7/python-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/pyyaml-feedstock"]
+	path = recipes3/cross2/pyyaml-feedstock
+	url = git@github.com:e8035669acarmv7/pyyaml-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/ripgrep-feedstock"]
+	path = recipes3/cross2/ripgrep-feedstock
+	url = git@github.com:e8035669acarmv7/ripgrep-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/ruamel-feedstock"]
+	path = recipes3/cross2/ruamel-feedstock
+	url = git@github.com:e8035669acarmv7/ruamel-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/ruamel.yaml.clib-feedstock"]
+	path = recipes3/cross2/ruamel.yaml.clib-feedstock
+	url = git@github.com:e8035669acarmv7/ruamel.yaml.clib-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/ruamel.yaml-feedstock"]
+	path = recipes3/cross2/ruamel.yaml-feedstock
+	url = git@github.com:e8035669acarmv7/ruamel.yaml-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/rust-activation-feedstock"]
+	path = recipes3/cross2/rust-activation-feedstock
+	url = git@github.com:e8035669acarmv7/rust-activation-feedstock.git
+	branch = cross_armv7l
+[submodule "recipes3/cross2/rust-feedstock"]
+	path = recipes3/cross2/rust-feedstock
+	url = git@github.com:e8035669acarmv7/rust-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/yarl-feedstock"]
+	path = recipes3/cross2/yarl-feedstock
+	url = git@github.com:e8035669acarmv7/yarl-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/zstandard-feedstock"]
+	path = recipes3/cross2/zstandard-feedstock
+	url = git@github.com:e8035669acarmv7/zstandard-feedstock.git
+	branch = main
+[submodule "recipes3/cross2/zstd-feedstock"]
+	path = recipes3/cross2/zstd-feedstock
+	url = git@github.com:e8035669acarmv7/zstd-feedstock.git
+	branch = main
