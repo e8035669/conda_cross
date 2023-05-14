@@ -6,7 +6,8 @@ if [ ! -d "${HOME}" ]; then
     export OLD_HOME="${HOME}"
   fi
 
-  conda_dir="$(dirname $(dirname ${CONDA_EXE}))"
+  # conda_dir="$(dirname $(dirname ${CONDA_EXE}))"
+  conda_dir="${CONDA_PREFIX}"
   new_home="${conda_dir}/home/${USER}"
   mkdir -p "${new_home}"
   export HOME="${new_home}"
