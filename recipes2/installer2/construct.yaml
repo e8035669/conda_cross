@@ -1,5 +1,5 @@
 name: conda4arm
-version: 1.0.2
+version: 1.0.1a
 
 channels:
   - conda-forge
@@ -20,6 +20,16 @@ specs:
   - python
   - conda
   - pip
+  - numpy
+  - opencv
+  - shapely
+  - pillow
+  - libusb
+  - flask
+  - vim
+  - openssh
+  - git
+  - bash
 
 extra_files:
   - change_home.sh: etc/conda/activate.d/change_home.sh

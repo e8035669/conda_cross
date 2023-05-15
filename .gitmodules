@@ -1,6 +1,6 @@
 [submodule "recipes2/cdt-builds"]
 	path = recipes2/cdt-builds
-	url = ../../e8035669/e8035669acarmv7/cdt-builds.git
+	url = ../../e8035669acarmv7/cdt-builds.git
 	branch = main
 [submodule "recipes2/bootstrap/binutils-feedstock"]
 	path = recipes2/bootstrap/binutils-feedstock
@@ -737,4 +737,340 @@
 [submodule "recipes3/cross2/zstd-feedstock"]
 	path = recipes3/cross2/zstd-feedstock
 	url = ../../e8035669acarmv7/zstd-feedstock.git
+	branch = main
+[submodule "recipes2/packages/aom-feedstock"]
+	path = recipes2/packages/aom-feedstock
+	url = ../../e8035669acarmv7/aom-feedstock.git
+	branch = main
+[submodule "recipes2/packages/attr-feedstock"]
+	path = recipes2/packages/attr-feedstock
+	url = ../../e8035669acarmv7/attr-feedstock.git
+	branch = main
+[submodule "recipes2/packages/autoconf-feedstock"]
+	path = recipes2/packages/autoconf-feedstock
+	url = ../../e8035669acarmv7/autoconf-feedstock.git
+	branch = v2.69
+[submodule "recipes2/packages/bash-feedstock"]
+	path = recipes2/packages/bash-feedstock
+	url = ../../e8035669acarmv7/bash-feedstock.git
+	branch = main
+[submodule "recipes2/packages/brotli-feedstock"]
+	path = recipes2/packages/brotli-feedstock
+	url = ../../e8035669acarmv7/brotli-feedstock.git
+	branch = main
+[submodule "recipes2/packages/cairo-feedstock"]
+	path = recipes2/packages/cairo-feedstock
+	url = ../../e8035669acarmv7/cairo-feedstock.git
+	branch = main
+[submodule "recipes2/packages/clangdev-feedstock"]
+	path = recipes2/packages/clangdev-feedstock
+	url = ../../e8035669acarmv7/clangdev-feedstock.git
+	branch = main
+[submodule "recipes2/packages/contourpy-feedstock"]
+	path = recipes2/packages/contourpy-feedstock
+	url = ../../e8035669acarmv7/contourpy-feedstock.git
+	branch = main
+[submodule "recipes2/packages/datefudge-feedstock"]
+	path = recipes2/packages/datefudge-feedstock
+	url = ../../e8035669acarmv7/datefudge-feedstock.git
+	branch = main
+[submodule "recipes2/packages/eigen-feedstock"]
+	path = recipes2/packages/eigen-feedstock
+	url = ../../e8035669acarmv7/eigen-feedstock.git
+	branch = main
+[submodule "recipes2/packages/elfutils-feedstock"]
+	path = recipes2/packages/elfutils-feedstock
+	url = ../../e8035669acarmv7/elfutils-feedstock.git
+	branch = main
+[submodule "recipes2/packages/expat-feedstock"]
+	path = recipes2/packages/expat-feedstock
+	url = ../../e8035669acarmv7/expat-feedstock.git
+	branch = main
+[submodule "recipes2/packages/ffmpeg-feedstock"]
+	path = recipes2/packages/ffmpeg-feedstock
+	url = ../../e8035669acarmv7/ffmpeg-feedstock.git
+	branch = main
+[submodule "recipes2/packages/fontconfig-feedstock"]
+	path = recipes2/packages/fontconfig-feedstock
+	url = ../../e8035669acarmv7/fontconfig-feedstock.git
+	branch = main
+[submodule "recipes2/packages/fonttools-feedstock"]
+	path = recipes2/packages/fonttools-feedstock
+	url = ../../e8035669acarmv7/fonttools-feedstock.git
+	branch = main
+[submodule "recipes2/packages/freeglut-feedstock"]
+	path = recipes2/packages/freeglut-feedstock
+	url = ../../e8035669acarmv7/freeglut-feedstock.git
+	branch = main
+[submodule "recipes2/packages/fribidi-feedstock"]
+	path = recipes2/packages/fribidi-feedstock
+	url = ../../e8035669acarmv7/fribidi-feedstock.git
+	branch = main
+[submodule "recipes2/packages/geos-feedstock"]
+	path = recipes2/packages/geos-feedstock
+	url = ../../e8035669acarmv7/geos-feedstock.git
+	branch = main
+[submodule "recipes2/packages/glib-feedstock"]
+	path = recipes2/packages/glib-feedstock
+	url = ../../e8035669acarmv7/glib-feedstock.git
+	branch = main
+[submodule "recipes2/packages/gnutls-feedstock"]
+	path = recipes2/packages/gnutls-feedstock
+	url = ../../e8035669acarmv7/gnutls-feedstock.git
+	branch = main
+[submodule "recipes2/packages/gobject-introspection-feedstock"]
+	path = recipes2/packages/gobject-introspection-feedstock
+	url = ../../e8035669acarmv7/gobject-introspection-feedstock.git
+	branch = main
+[submodule "recipes2/packages/gperf-feedstock"]
+	path = recipes2/packages/gperf-feedstock
+	url = ../../e8035669acarmv7/gperf-feedstock.git
+	branch = main
+[submodule "recipes2/packages/graphite2-feedstock"]
+	path = recipes2/packages/graphite2-feedstock
+	url = ../../e8035669acarmv7/graphite2-feedstock.git
+	branch = main
+[submodule "recipes2/packages/graphviz-feedstock"]
+	path = recipes2/packages/graphviz-feedstock
+	url = ../../e8035669acarmv7/graphviz-feedstock.git
+	branch = main
+[submodule "recipes2/packages/harfbuzz-feedstock"]
+	path = recipes2/packages/harfbuzz-feedstock
+	url = ../../e8035669acarmv7/harfbuzz-feedstock.git
+	branch = main
+[submodule "recipes2/packages/hdf5-feedstock"]
+	path = recipes2/packages/hdf5-feedstock
+	url = ../../e8035669acarmv7/hdf5-feedstock.git
+	branch = main
+[submodule "recipes2/packages/jasper-feedstock"]
+	path = recipes2/packages/jasper-feedstock
+	url = ../../e8035669acarmv7/jasper-feedstock.git
+	branch = main
+[submodule "recipes2/packages/kiwisolver-feedstock"]
+	path = recipes2/packages/kiwisolver-feedstock
+	url = ../../e8035669acarmv7/kiwisolver-feedstock.git
+	branch = main
+[submodule "recipes2/packages/lame-feedstock"]
+	path = recipes2/packages/lame-feedstock
+	url = ../../e8035669acarmv7/lame-feedstock.git
+	branch = main
+[submodule "recipes2/packages/lapack-feedstock"]
+	path = recipes2/packages/lapack-feedstock
+	url = ../../e8035669acarmv7/lapack-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libacl-feedstock"]
+	path = recipes2/packages/libacl-feedstock
+	url = ../../e8035669acarmv7/libacl-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libaec-feedstock"]
+	path = recipes2/packages/libaec-feedstock
+	url = ../../e8035669acarmv7/libaec-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libass-feedstock"]
+	path = recipes2/packages/libass-feedstock
+	url = ../../e8035669acarmv7/libass-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libcap-feedstock"]
+	path = recipes2/packages/libcap-feedstock
+	url = ../../e8035669acarmv7/libcap-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libcbor-feedstock"]
+	path = recipes2/packages/libcbor-feedstock
+	url = ../../e8035669acarmv7/libcbor-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libfido2-feedstock"]
+	path = recipes2/packages/libfido2-feedstock
+	url = ../../e8035669acarmv7/libfido2-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libgcrypt-feedstock"]
+	path = recipes2/packages/libgcrypt-feedstock
+	url = ../../e8035669acarmv7/libgcrypt-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libglu-feedstock"]
+	path = recipes2/packages/libglu-feedstock
+	url = ../../e8035669acarmv7/libglu-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libgpg-error-feedstock"]
+	path = recipes2/packages/libgpg-error-feedstock
+	url = ../../e8035669acarmv7/libgpg-error-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libmicrohttpd-feedstock"]
+	path = recipes2/packages/libmicrohttpd-feedstock
+	url = ../../e8035669acarmv7/libmicrohttpd-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libopus-feedstock"]
+	path = recipes2/packages/libopus-feedstock
+	url = ../../e8035669acarmv7/libopus-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libprotobuf-feedstock"]
+	path = recipes2/packages/libprotobuf-feedstock
+	url = ../../e8035669acarmv7/libprotobuf-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libtasn1-feedstock"]
+	path = recipes2/packages/libtasn1-feedstock
+	url = ../../e8035669acarmv7/libtasn1-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libusb-feedstock"]
+	path = recipes2/packages/libusb-feedstock
+	url = ../../e8035669acarmv7/libusb-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libvpx-feedstock"]
+	path = recipes2/packages/libvpx-feedstock
+	url = ../../e8035669acarmv7/libvpx-feedstock.git
+	branch = main
+[submodule "recipes2/packages/matplotlib-feedstock"]
+	path = recipes2/packages/matplotlib-feedstock
+	url = ../../e8035669acarmv7/matplotlib-feedstock.git
+	branch = main
+[submodule "recipes2/packages/nasm-feedstock"]
+	path = recipes2/packages/nasm-feedstock
+	url = ../../e8035669acarmv7/nasm-feedstock.git
+	branch = main
+[submodule "recipes2/packages/nettle-feedstock"]
+	path = recipes2/packages/nettle-feedstock
+	url = ../../e8035669acarmv7/nettle-feedstock.git
+	branch = main
+[submodule "recipes2/packages/opencv-feedstock"]
+	path = recipes2/packages/opencv-feedstock
+	url = ../../e8035669acarmv7/opencv-feedstock.git
+	branch = main
+[submodule "recipes2/packages/openh264-feedstock"]
+	path = recipes2/packages/openh264-feedstock
+	url = ../../e8035669acarmv7/openh264-feedstock.git
+	branch = main
+[submodule "recipes2/packages/openssh-feedstock"]
+	path = recipes2/packages/openssh-feedstock
+	url = ../../e8035669acarmv7/openssh-feedstock.git
+	branch = main
+[submodule "recipes2/packages/p11-kit-feedstock"]
+	path = recipes2/packages/p11-kit-feedstock
+	url = ../../e8035669acarmv7/p11-kit-feedstock.git
+	branch = main
+[submodule "recipes2/packages/pixman-feedstock"]
+	path = recipes2/packages/pixman-feedstock
+	url = ../../e8035669acarmv7/pixman-feedstock.git
+	branch = main
+[submodule "recipes2/packages/protobuf-feedstock"]
+	path = recipes2/packages/protobuf-feedstock
+	url = ../../e8035669acarmv7/protobuf-feedstock.git
+	branch = main
+[submodule "recipes2/packages/pycairo-feedstock"]
+	path = recipes2/packages/pycairo-feedstock
+	url = ../../e8035669acarmv7/pycairo-feedstock.git
+	branch = main
+[submodule "recipes2/packages/pydot-feedstock"]
+	path = recipes2/packages/pydot-feedstock
+	url = ../../e8035669acarmv7/pydot-feedstock.git
+	branch = main
+[submodule "recipes2/packages/pygobject-feedstock"]
+	path = recipes2/packages/pygobject-feedstock
+	url = ../../e8035669acarmv7/pygobject-feedstock.git
+	branch = main
+[submodule "recipes2/packages/pytorch-cpu-feedstock"]
+	path = recipes2/packages/pytorch-cpu-feedstock
+	url = ../../e8035669acarmv7/pytorch-cpu-feedstock.git
+	branch = main
+[submodule "recipes2/packages/seccomp-split-feedstock"]
+	path = recipes2/packages/seccomp-split-feedstock
+	url = ../../e8035669acarmv7/seccomp-split-feedstock.git
+	branch = main
+[submodule "recipes2/packages/setuptools-59"]
+	path = recipes2/packages/setuptools-59
+	url = ../../e8035669acarmv7/setuptools-feedstock.git
+	branch = 59_x
+[submodule "recipes2/packages/setuptools-feedstock"]
+	path = recipes2/packages/setuptools-feedstock
+	url = ../../e8035669acarmv7/setuptools-feedstock.git
+	branch = main
+[submodule "recipes2/packages/shapely-feedstock"]
+	path = recipes2/packages/shapely-feedstock
+	url = ../../e8035669acarmv7/shapely-feedstock.git
+	branch = main
+[submodule "recipes2/packages/sleef-feedstock"]
+	path = recipes2/packages/sleef-feedstock
+	url = ../../e8035669acarmv7/sleef-feedstock.git
+	branch = main
+[submodule "recipes2/packages/svt-av1-feedstock"]
+	path = recipes2/packages/svt-av1-feedstock
+	url = ../../e8035669acarmv7/svt-av1-feedstock.git
+	branch = v1.4.1
+[submodule "recipes2/packages/systemd-feedstock"]
+	path = recipes2/packages/systemd-feedstock
+	url = ../../e8035669acarmv7/systemd-feedstock.git
+	branch = main
+[submodule "recipes2/packages/unicodedata2-feedstock"]
+	path = recipes2/packages/unicodedata2-feedstock
+	url = ../../e8035669acarmv7/unicodedata2-feedstock.git
+	branch = main
+[submodule "recipes2/packages/util-linux-feedstock"]
+	path = recipes2/packages/util-linux-feedstock
+	url = ../../e8035669acarmv7/util-linux-feedstock.git
+	branch = main
+[submodule "recipes2/packages/vim-feedstock"]
+	path = recipes2/packages/vim-feedstock
+	url = ../../e8035669acarmv7/vim-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-damageproto-feedstock"]
+	path = recipes2/packages/xorg-damageproto-feedstock
+	url = ../../e8035669acarmv7/xorg-damageproto-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-fixesproto-feedstock"]
+	path = recipes2/packages/xorg-fixesproto-feedstock
+	url = ../../e8035669acarmv7/xorg-fixesproto-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-inputproto-feedstock"]
+	path = recipes2/packages/xorg-inputproto-feedstock
+	url = ../../e8035669acarmv7/xorg-inputproto-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-kbproto-feedstock"]
+	path = recipes2/packages/xorg-kbproto-feedstock
+	url = ../../e8035669acarmv7/xorg-kbproto-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-libice-feedstock"]
+	path = recipes2/packages/xorg-libice-feedstock
+	url = ../../e8035669acarmv7/xorg-libice-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-libsm-feedstock"]
+	path = recipes2/packages/xorg-libsm-feedstock
+	url = ../../e8035669acarmv7/xorg-libsm-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-libx11-feedstock"]
+	path = recipes2/packages/xorg-libx11-feedstock
+	url = ../../e8035669acarmv7/xorg-libx11-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-libxext-feedstock"]
+	path = recipes2/packages/xorg-libxext-feedstock
+	url = ../../e8035669acarmv7/xorg-libxext-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-libxfixes-feedstock"]
+	path = recipes2/packages/xorg-libxfixes-feedstock
+	url = ../../e8035669acarmv7/xorg-libxfixes-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-libxi-feedstock"]
+	path = recipes2/packages/xorg-libxi-feedstock
+	url = ../../e8035669acarmv7/xorg-libxi-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-libxrender-feedstock"]
+	path = recipes2/packages/xorg-libxrender-feedstock
+	url = ../../e8035669acarmv7/xorg-libxrender-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-libxt-feedstock"]
+	path = recipes2/packages/xorg-libxt-feedstock
+	url = ../../e8035669acarmv7/xorg-libxt-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-renderproto-feedstock"]
+	path = recipes2/packages/xorg-renderproto-feedstock
+	url = ../../e8035669acarmv7/xorg-renderproto-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-xextproto-feedstock"]
+	path = recipes2/packages/xorg-xextproto-feedstock
+	url = ../../e8035669acarmv7/xorg-xextproto-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-xf86vidmodeproto-feedstock"]
+	path = recipes2/packages/xorg-xf86vidmodeproto-feedstock
+	url = ../../e8035669acarmv7/xorg-xf86vidmodeproto-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-xtrans-feedstock"]
+	path = recipes2/packages/xorg-xtrans-feedstock
+	url = ../../e8035669acarmv7/xorg-xtrans-feedstock.git
 	branch = main

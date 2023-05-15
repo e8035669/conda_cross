@@ -144,6 +144,32 @@
 - pillow
 
 - openblas
-- blas
+- llvmdev
+- clangdev
+-
+- 
+- lapack
 - numpy
+
+- nasm
+- lame
+- p11-kit datefudge libtasn1 nettle
+- gnutls
+- fontconfig
+- libopus
+- libvpx
+- aom
+- openh264
+- svt-av1
+- ffmpeg
+
+- eigen
+- libprotobuf
+- libglu
+- freeglut
+- jasper
+- opencv
+
+- systemd
+- openssh
 
