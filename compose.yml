@@ -44,4 +44,13 @@ services:
     volumes:
       - ./recipes2:/recipes2
     working_dir: /recipes2
+  conda:
+    image: e8035669/conda-armv7l
+    build: docker/conda-armv7l
+    platform: linux/arm/v7
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./recipes2:/recipes2
+
 
