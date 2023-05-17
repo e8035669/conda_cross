@@ -1,13 +1,13 @@
 name: conda4arm
-version: 1.0.2
+version: 1.0.3
 
 channels:
-  - conda-forge
   - e8035669acarmv7
+  - conda-forge
   
 conda_default_channels: 
-  - conda-forge
   - e8035669acarmv7
+  - conda-forge
 
 write_condarc: True
 

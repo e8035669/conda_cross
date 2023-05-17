@@ -1,0 +1,24 @@
+name: mamba4arm
+version: 1.0.3-py310
+
+channels:
+  - e8035669acarmv7
+  - conda-forge
+  
+conda_default_channels: 
+  - e8035669acarmv7
+  - conda-forge
+
+write_condarc: True
+
+# During the interactive installation, these variables are checked.
+# During batch installation, conda is never initialized
+# initialize_conda: True
+initialize_by_default: False
+
+specs:
+  - python=3.10
+  - conda
+  - pip
+  - mamba
+
