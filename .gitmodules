@@ -1074,3 +1074,6 @@
 	path = recipes2/packages/xorg-xtrans-feedstock
 	url = ../../e8035669acarmv7/xorg-xtrans-feedstock.git
 	branch = main
+[submodule "docker-images"]
+	path = docker-images
+	url = git@github.com:e8035669acarmv7/docker-images.git
