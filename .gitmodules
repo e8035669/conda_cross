@@ -1077,6 +1077,7 @@
 [submodule "docker-images"]
 	path = docker-images
 	url = ../../e8035669acarmv7/docker-images.git
+	branch = main
 [submodule "recipes2/packages/conda-pack-feedstock"]
 	path = recipes2/packages/conda-pack-feedstock
 	url = ../../e8035669acarmv7/conda-pack-feedstock.git
