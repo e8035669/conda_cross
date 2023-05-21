@@ -1,2 +1,3 @@
 recipes2/installer/output/
 *Linux-armv7l.sh
+.env
