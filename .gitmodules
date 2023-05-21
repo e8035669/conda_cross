@@ -305,7 +305,7 @@
 [submodule "recipes2/packages/conda-feedstock"]
 	path = recipes2/packages/conda-feedstock
 	url = ../../e8035669acarmv7/conda-feedstock.git
-	branch = v22.11.1
+	branch = main
 [submodule "recipes2/packages/conda-standalone-feedstock"]
 	path = recipes2/packages/conda-standalone-feedstock
 	url = ../../e8035669acarmv7/conda-standalone-feedstock.git
@@ -749,7 +749,7 @@
 [submodule "recipes2/packages/autoconf-feedstock"]
 	path = recipes2/packages/autoconf-feedstock
 	url = ../../e8035669acarmv7/autoconf-feedstock.git
-	branch = v2.69
+	branch = main
 [submodule "recipes2/packages/bash-feedstock"]
 	path = recipes2/packages/bash-feedstock
 	url = ../../e8035669acarmv7/bash-feedstock.git
@@ -974,10 +974,6 @@
 	path = recipes2/packages/seccomp-split-feedstock
 	url = ../../e8035669acarmv7/seccomp-split-feedstock.git
 	branch = main
-[submodule "recipes2/packages/setuptools-59"]
-	path = recipes2/packages/setuptools-59
-	url = ../../e8035669acarmv7/setuptools-feedstock.git
-	branch = 59_x
 [submodule "recipes2/packages/setuptools-feedstock"]
 	path = recipes2/packages/setuptools-feedstock
 	url = ../../e8035669acarmv7/setuptools-feedstock.git
@@ -993,7 +989,7 @@
 [submodule "recipes2/packages/svt-av1-feedstock"]
 	path = recipes2/packages/svt-av1-feedstock
 	url = ../../e8035669acarmv7/svt-av1-feedstock.git
-	branch = v1.4.1
+	branch = main
 [submodule "recipes2/packages/systemd-feedstock"]
 	path = recipes2/packages/systemd-feedstock
 	url = ../../e8035669acarmv7/systemd-feedstock.git
@@ -1094,3 +1090,19 @@
 	path = recipes2/packages/tornado-feedstock
 	url = ../../e8035669acarmv7/tornado-feedstock.git
 	branch = main
+[submodule "recipes2/special_version/autoconf-feedstock"]
+	path = recipes2/special_version/autoconf-feedstock
+	url = ../../e8035669acarmv7/autoconf-feedstock.git
+	branch = v2.69
+[submodule "recipes2/special_version/conda-feedstock"]
+	path = recipes2/special_version/conda-feedstock
+	url = ../../e8035669acarmv7/conda-feedstock.git
+	branch = v22.11.1
+[submodule "recipes2/special_version/setuptools-feedstock"]
+	path = recipes2/special_version/setuptools-feedstock
+	url = ../../e8035669acarmv7/setuptools-feedstock.git
+	branch = 59_x
+[submodule "recipes2/special_version/svt-av1-feedstock"]
+	path = recipes2/special_version/svt-av1-feedstock
+	url = ../../e8035669acarmv7/svt-av1-feedstock.git
+	branch = v1.4.1
