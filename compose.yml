@@ -30,5 +30,11 @@ services:
     tty: true
     volumes:
       - ./recipes2:/recipes2
+  comp3:
+    image: e8035669/linux-anvil-armv7l
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./recipes2/:/recipes2
 
 
