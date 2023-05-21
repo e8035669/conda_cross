@@ -256,363 +256,363 @@
 	branch = main
 [submodule "recipes2/packages/aiohttp-feedstock"]
 	path = recipes2/packages/aiohttp-feedstock
-	url = git@github.com:e8035669acarmv7/aiohttp-feedstock.git
+	url = ../../e8035669acarmv7/aiohttp-feedstock.git
 	branch = main
 [submodule "recipes2/packages/asciidoctor-feedstock"]
 	path = recipes2/packages/asciidoctor-feedstock
-	url = git@github.com:e8035669acarmv7/asciidoctor-feedstock.git
+	url = ../../e8035669acarmv7/asciidoctor-feedstock.git
 	branch = main
 [submodule "recipes2/packages/blas-feedstock"]
 	path = recipes2/packages/blas-feedstock
-	url = git@github.com:e8035669acarmv7/blas-feedstock.git
+	url = ../../e8035669acarmv7/blas-feedstock.git
 	branch = main
 [submodule "recipes2/packages/blis-feedstock"]
 	path = recipes2/packages/blis-feedstock
-	url = git@github.com:e8035669acarmv7/blis-feedstock.git
+	url = ../../e8035669acarmv7/blis-feedstock.git
 	branch = main
 [submodule "recipes2/packages/cargo-bundle-licenses-feedstock"]
 	path = recipes2/packages/cargo-bundle-licenses-feedstock
-	url = git@github.com:e8035669acarmv7/cargo-bundle-licenses-feedstock.git
+	url = ../../e8035669acarmv7/cargo-bundle-licenses-feedstock.git
 	branch = main
 [submodule "recipes2/packages/ccache-feedstock"]
 	path = recipes2/packages/ccache-feedstock
-	url = git@github.com:e8035669acarmv7/ccache-feedstock.git
+	url = ../../e8035669acarmv7/ccache-feedstock.git
 	branch = main
 [submodule "recipes2/packages/certifi-feedstock"]
 	path = recipes2/packages/certifi-feedstock
-	url = git@github.com:e8035669acarmv7/certifi-feedstock.git
+	url = ../../e8035669acarmv7/certifi-feedstock.git
 	branch = main
 [submodule "recipes2/packages/cffi-feedstock"]
 	path = recipes2/packages/cffi-feedstock
-	url = git@github.com:e8035669acarmv7/cffi-feedstock.git
+	url = ../../e8035669acarmv7/cffi-feedstock.git
 	branch = main
 [submodule "recipes2/packages/chardet-feedstock"]
 	path = recipes2/packages/chardet-feedstock
-	url = git@github.com:e8035669acarmv7/chardet-feedstock.git
+	url = ../../e8035669acarmv7/chardet-feedstock.git
 	branch = main
 [submodule "recipes2/packages/cli11-feedstock"]
 	path = recipes2/packages/cli11-feedstock
-	url = git@github.com:e8035669acarmv7/cli11-feedstock.git
+	url = ../../e8035669acarmv7/cli11-feedstock.git
 	branch = main
 [submodule "recipes2/packages/compilers-feedstock"]
 	path = recipes2/packages/compilers-feedstock
-	url = git@github.com:e8035669acarmv7/compilers-feedstock.git
+	url = ../../e8035669acarmv7/compilers-feedstock.git
 	branch = main
 [submodule "recipes2/packages/conda-build-feedstock"]
 	path = recipes2/packages/conda-build-feedstock
-	url = git@github.com:e8035669acarmv7/conda-build-feedstock.git
+	url = ../../e8035669acarmv7/conda-build-feedstock.git
 	branch = main
 [submodule "recipes2/packages/conda-feedstock"]
 	path = recipes2/packages/conda-feedstock
-	url = git@github.com:e8035669acarmv7/conda-feedstock.git
+	url = ../../e8035669acarmv7/conda-feedstock.git
 	branch = v22.11.1
 [submodule "recipes2/packages/conda-standalone-feedstock"]
 	path = recipes2/packages/conda-standalone-feedstock
-	url = git@github.com:e8035669acarmv7/conda-standalone-feedstock.git
+	url = ../../e8035669acarmv7/conda-standalone-feedstock.git
 	branch = main
 [submodule "recipes2/packages/coverage-feedstock"]
 	path = recipes2/packages/coverage-feedstock
-	url = git@github.com:e8035669acarmv7/coverage-feedstock.git
+	url = ../../e8035669acarmv7/coverage-feedstock.git
 	branch = main
 [submodule "recipes2/packages/cpp-expected-feedstock"]
 	path = recipes2/packages/cpp-expected-feedstock
-	url = git@github.com:e8035669acarmv7/cpp-expected-feedstock.git
+	url = ../../e8035669acarmv7/cpp-expected-feedstock.git
 	branch = main
 [submodule "recipes2/packages/cryptography-feedstock"]
 	path = recipes2/packages/cryptography-feedstock
-	url = git@github.com:e8035669acarmv7/cryptography-feedstock.git
+	url = ../../e8035669acarmv7/cryptography-feedstock.git
 	branch = main
 [submodule "recipes2/packages/curl-feedstock"]
 	path = recipes2/packages/curl-feedstock
-	url = git@github.com:e8035669acarmv7/curl-feedstock.git
+	url = ../../e8035669acarmv7/curl-feedstock.git
 	branch = main
 [submodule "recipes2/packages/cython-feedstock"]
 	path = recipes2/packages/cython-feedstock
-	url = git@github.com:e8035669acarmv7/cython-feedstock.git
+	url = ../../e8035669acarmv7/cython-feedstock.git
 	branch = main
 [submodule "recipes2/packages/docutils-feedstock"]
 	path = recipes2/packages/docutils-feedstock
-	url = git@github.com:e8035669acarmv7/docutils-feedstock.git
+	url = ../../e8035669acarmv7/docutils-feedstock.git
 	branch = main
 [submodule "recipes2/packages/fmt-feedstock"]
 	path = recipes2/packages/fmt-feedstock
-	url = git@github.com:e8035669acarmv7/fmt-feedstock.git
+	url = ../../e8035669acarmv7/fmt-feedstock.git
 	branch = main
 [submodule "recipes2/packages/freetype-feedstock"]
 	path = recipes2/packages/freetype-feedstock
-	url = git@github.com:e8035669acarmv7/freetype-feedstock.git
+	url = ../../e8035669acarmv7/freetype-feedstock.git
 	branch = main
 [submodule "recipes2/packages/frozenlist-feedstock"]
 	path = recipes2/packages/frozenlist-feedstock
-	url = git@github.com:e8035669acarmv7/frozenlist-feedstock.git
+	url = ../../e8035669acarmv7/frozenlist-feedstock.git
 	branch = main
 [submodule "recipes2/packages/giflib-feedstock"]
 	path = recipes2/packages/giflib-feedstock
-	url = git@github.com:e8035669acarmv7/giflib-feedstock.git
+	url = ../../e8035669acarmv7/giflib-feedstock.git
 	branch = main
 [submodule "recipes2/packages/git-feedstock"]
 	path = recipes2/packages/git-feedstock
-	url = git@github.com:e8035669acarmv7/git-feedstock.git
+	url = ../../e8035669acarmv7/git-feedstock.git
 	branch = main
 [submodule "recipes2/packages/gmp-feedstock"]
 	path = recipes2/packages/gmp-feedstock
-	url = git@github.com:e8035669acarmv7/gmp-feedstock.git
+	url = ../../e8035669acarmv7/gmp-feedstock.git
 	branch = main
 [submodule "recipes2/packages/icu-feedstock"]
 	path = recipes2/packages/icu-feedstock
-	url = git@github.com:e8035669acarmv7/icu-feedstock.git
+	url = ../../e8035669acarmv7/icu-feedstock.git
 	branch = main
 [submodule "recipes2/packages/jupyter_core-feedstock"]
 	path = recipes2/packages/jupyter_core-feedstock
-	url = git@github.com:e8035669acarmv7/jupyter_core-feedstock.git
+	url = ../../e8035669acarmv7/jupyter_core-feedstock.git
 	branch = main
 [submodule "recipes2/packages/krb5-feedstock"]
 	path = recipes2/packages/krb5-feedstock
-	url = git@github.com:e8035669acarmv7/krb5-feedstock.git
+	url = ../../e8035669acarmv7/krb5-feedstock.git
 	branch = main
 [submodule "recipes2/packages/lcms2-feedstock"]
 	path = recipes2/packages/lcms2-feedstock
-	url = git@github.com:e8035669acarmv7/lcms2-feedstock.git
+	url = ../../e8035669acarmv7/lcms2-feedstock.git
 	branch = main
 [submodule "recipes2/packages/lerc-feedstock"]
 	path = recipes2/packages/lerc-feedstock
-	url = git@github.com:e8035669acarmv7/lerc-feedstock.git
+	url = ../../e8035669acarmv7/lerc-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libarchive-feedstock"]
 	path = recipes2/packages/libarchive-feedstock
-	url = git@github.com:e8035669acarmv7/libarchive-feedstock.git
+	url = ../../e8035669acarmv7/libarchive-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libdeflate-feedstock"]
 	path = recipes2/packages/libdeflate-feedstock
-	url = git@github.com:e8035669acarmv7/libdeflate-feedstock.git
+	url = ../../e8035669acarmv7/libdeflate-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libgit2-feedstock"]
 	path = recipes2/packages/libgit2-feedstock
-	url = git@github.com:e8035669acarmv7/libgit2-feedstock.git
+	url = ../../e8035669acarmv7/libgit2-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libhiredis-feedstock"]
 	path = recipes2/packages/libhiredis-feedstock
-	url = git@github.com:e8035669acarmv7/libhiredis-feedstock.git
+	url = ../../e8035669acarmv7/libhiredis-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libiconv-feedstock"]
 	path = recipes2/packages/libiconv-feedstock
-	url = git@github.com:e8035669acarmv7/libiconv-feedstock.git
+	url = ../../e8035669acarmv7/libiconv-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libjpeg-turbo-feedstock"]
 	path = recipes2/packages/libjpeg-turbo-feedstock
-	url = git@github.com:e8035669acarmv7/libjpeg-turbo-feedstock.git
+	url = ../../e8035669acarmv7/libjpeg-turbo-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libpng-feedstock"]
 	path = recipes2/packages/libpng-feedstock
-	url = git@github.com:e8035669acarmv7/libpng-feedstock.git
+	url = ../../e8035669acarmv7/libpng-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libsolv-feedstock"]
 	path = recipes2/packages/libsolv-feedstock
-	url = git@github.com:e8035669acarmv7/libsolv-feedstock.git
+	url = ../../e8035669acarmv7/libsolv-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libtiff-feedstock"]
 	path = recipes2/packages/libtiff-feedstock
-	url = git@github.com:e8035669acarmv7/libtiff-feedstock.git
+	url = ../../e8035669acarmv7/libtiff-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libwebp-base-feedstock"]
 	path = recipes2/packages/libwebp-base-feedstock
-	url = git@github.com:e8035669acarmv7/libwebp-base-feedstock.git
+	url = ../../e8035669acarmv7/libwebp-base-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libwebp-feedstock"]
 	path = recipes2/packages/libwebp-feedstock
-	url = git@github.com:e8035669acarmv7/libwebp-feedstock.git
+	url = ../../e8035669acarmv7/libwebp-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libxcb-feedstock"]
 	path = recipes2/packages/libxcb-feedstock
-	url = git@github.com:e8035669acarmv7/libxcb-feedstock.git
+	url = ../../e8035669acarmv7/libxcb-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libxml2-feedstock"]
 	path = recipes2/packages/libxml2-feedstock
-	url = git@github.com:e8035669acarmv7/libxml2-feedstock.git
+	url = ../../e8035669acarmv7/libxml2-feedstock.git
 	branch = main
 [submodule "recipes2/packages/lief-feedstock"]
 	path = recipes2/packages/lief-feedstock
-	url = git@github.com:e8035669acarmv7/lief-feedstock.git
+	url = ../../e8035669acarmv7/lief-feedstock.git
 	branch = main
 [submodule "recipes2/packages/llvmdev-feedstock"]
 	path = recipes2/packages/llvmdev-feedstock
-	url = git@github.com:e8035669acarmv7/llvmdev-feedstock.git
+	url = ../../e8035669acarmv7/llvmdev-feedstock.git
 	branch = main
 [submodule "recipes2/packages/lz4-feedstock"]
 	path = recipes2/packages/lz4-feedstock
-	url = git@github.com:e8035669acarmv7/lz4-feedstock.git
+	url = ../../e8035669acarmv7/lz4-feedstock.git
 	branch = main
 [submodule "recipes2/packages/lzo-feedstock"]
 	path = recipes2/packages/lzo-feedstock
-	url = git@github.com:e8035669acarmv7/lzo-feedstock.git
+	url = ../../e8035669acarmv7/lzo-feedstock.git
 	branch = main
 [submodule "recipes2/packages/mamba-feedstock"]
 	path = recipes2/packages/mamba-feedstock
-	url = git@github.com:e8035669acarmv7/mamba-feedstock.git
+	url = ../../e8035669acarmv7/mamba-feedstock.git
 	branch = main
 [submodule "recipes2/packages/markupsafe-feedstock"]
 	path = recipes2/packages/markupsafe-feedstock
-	url = git@github.com:e8035669acarmv7/markupsafe-feedstock.git
+	url = ../../e8035669acarmv7/markupsafe-feedstock.git
 	branch = main
 [submodule "recipes2/packages/micromamba-feedstock"]
 	path = recipes2/packages/micromamba-feedstock
-	url = git@github.com:e8035669acarmv7/micromamba-feedstock.git
+	url = ../../e8035669acarmv7/micromamba-feedstock.git
 	branch = main
 [submodule "recipes2/packages/multidict-feedstock"]
 	path = recipes2/packages/multidict-feedstock
-	url = git@github.com:e8035669acarmv7/multidict-feedstock.git
+	url = ../../e8035669acarmv7/multidict-feedstock.git
 	branch = main
 [submodule "recipes2/packages/nlohmann_json-feedstock"]
 	path = recipes2/packages/nlohmann_json-feedstock
-	url = git@github.com:e8035669acarmv7/nlohmann_json-feedstock.git
+	url = ../../e8035669acarmv7/nlohmann_json-feedstock.git
 	branch = main
 [submodule "recipes2/packages/numpy-feedstock"]
 	path = recipes2/packages/numpy-feedstock
-	url = git@github.com:e8035669acarmv7/numpy-feedstock.git
+	url = ../../e8035669acarmv7/numpy-feedstock.git
 	branch = main
 [submodule "recipes2/packages/openblas-feedstock"]
 	path = recipes2/packages/openblas-feedstock
-	url = git@github.com:e8035669acarmv7/openblas-feedstock.git
+	url = ../../e8035669acarmv7/openblas-feedstock.git
 	branch = main
 [submodule "recipes2/packages/openjpeg-feedstock"]
 	path = recipes2/packages/openjpeg-feedstock
-	url = git@github.com:e8035669acarmv7/openjpeg-feedstock.git
+	url = ../../e8035669acarmv7/openjpeg-feedstock.git
 	branch = main
 [submodule "recipes2/packages/openmp-feedstock"]
 	path = recipes2/packages/openmp-feedstock
-	url = git@github.com:e8035669acarmv7/openmp-feedstock.git
+	url = ../../e8035669acarmv7/openmp-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pcre2-feedstock"]
 	path = recipes2/packages/pcre2-feedstock
-	url = git@github.com:e8035669acarmv7/pcre2-feedstock.git
+	url = ../../e8035669acarmv7/pcre2-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pillow-feedstock"]
 	path = recipes2/packages/pillow-feedstock
-	url = git@github.com:e8035669acarmv7/pillow-feedstock.git
+	url = ../../e8035669acarmv7/pillow-feedstock.git
 	branch = main
 [submodule "recipes2/packages/psutil-feedstock"]
 	path = recipes2/packages/psutil-feedstock
-	url = git@github.com:e8035669acarmv7/psutil-feedstock.git
+	url = ../../e8035669acarmv7/psutil-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pthread-stubs-feedstock"]
 	path = recipes2/packages/pthread-stubs-feedstock
-	url = git@github.com:e8035669acarmv7/pthread-stubs-feedstock.git
+	url = ../../e8035669acarmv7/pthread-stubs-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pybind11-feedstock"]
 	path = recipes2/packages/pybind11-feedstock
-	url = git@github.com:e8035669acarmv7/pybind11-feedstock.git
+	url = ../../e8035669acarmv7/pybind11-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pycosat-feedstock"]
 	path = recipes2/packages/pycosat-feedstock
-	url = git@github.com:e8035669acarmv7/pycosat-feedstock.git
+	url = ../../e8035669acarmv7/pycosat-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pyinstaller-feedstock"]
 	path = recipes2/packages/pyinstaller-feedstock
-	url = git@github.com:e8035669acarmv7/pyinstaller-feedstock.git
+	url = ../../e8035669acarmv7/pyinstaller-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pyrsistent-feedstock"]
 	path = recipes2/packages/pyrsistent-feedstock
-	url = git@github.com:e8035669acarmv7/pyrsistent-feedstock.git
+	url = ../../e8035669acarmv7/pyrsistent-feedstock.git
 	branch = main
 [submodule "recipes2/packages/python_abi-feedstock"]
 	path = recipes2/packages/python_abi-feedstock
-	url = git@github.com:e8035669acarmv7/python_abi-feedstock.git
+	url = ../../e8035669acarmv7/python_abi-feedstock.git
 	branch = main
 [submodule "recipes2/packages/python-libarchive-c-feedstock"]
 	path = recipes2/packages/python-libarchive-c-feedstock
-	url = git@github.com:e8035669acarmv7/python-libarchive-c-feedstock.git
+	url = ../../e8035669acarmv7/python-libarchive-c-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pyyaml-feedstock"]
 	path = recipes2/packages/pyyaml-feedstock
-	url = git@github.com:e8035669acarmv7/pyyaml-feedstock.git
+	url = ../../e8035669acarmv7/pyyaml-feedstock.git
 	branch = main
 [submodule "recipes2/packages/reproc-feedstock"]
 	path = recipes2/packages/reproc-feedstock
-	url = git@github.com:e8035669acarmv7/reproc-feedstock.git
+	url = ../../e8035669acarmv7/reproc-feedstock.git
 	branch = main
 [submodule "recipes2/packages/ripgrep-feedstock"]
 	path = recipes2/packages/ripgrep-feedstock
-	url = git@github.com:e8035669acarmv7/ripgrep-feedstock.git
+	url = ../../e8035669acarmv7/ripgrep-feedstock.git
 	branch = main
 [submodule "recipes2/packages/ruamel-feedstock"]
 	path = recipes2/packages/ruamel-feedstock
-	url = git@github.com:e8035669acarmv7/ruamel-feedstock.git
+	url = ../../e8035669acarmv7/ruamel-feedstock.git
 	branch = main
 [submodule "recipes2/packages/ruamel.yaml.clib-feedstock"]
 	path = recipes2/packages/ruamel.yaml.clib-feedstock
-	url = git@github.com:e8035669acarmv7/ruamel.yaml.clib-feedstock.git
+	url = ../../e8035669acarmv7/ruamel.yaml.clib-feedstock.git
 	branch = main
 [submodule "recipes2/packages/ruamel.yaml-feedstock"]
 	path = recipes2/packages/ruamel.yaml-feedstock
-	url = git@github.com:e8035669acarmv7/ruamel.yaml-feedstock.git
+	url = ../../e8035669acarmv7/ruamel.yaml-feedstock.git
 	branch = main
 [submodule "recipes2/packages/ruamel_yaml-feedstock"]
 	path = recipes2/packages/ruamel_yaml-feedstock
-	url = git@github.com:e8035669acarmv7/ruamel_yaml-feedstock.git
+	url = ../../e8035669acarmv7/ruamel_yaml-feedstock.git
 	branch = main
 [submodule "recipes2/packages/ruby-feedstock"]
 	path = recipes2/packages/ruby-feedstock
-	url = git@github.com:e8035669acarmv7/ruby-feedstock.git
+	url = ../../e8035669acarmv7/ruby-feedstock.git
 	branch = main
 [submodule "recipes2/packages/sed-feedstock"]
 	path = recipes2/packages/sed-feedstock
-	url = git@github.com:e8035669acarmv7/sed-feedstock.git
+	url = ../../e8035669acarmv7/sed-feedstock.git
 	branch = main
 [submodule "recipes2/packages/spdlog-feedstock"]
 	path = recipes2/packages/spdlog-feedstock
-	url = git@github.com:e8035669acarmv7/spdlog-feedstock.git
+	url = ../../e8035669acarmv7/spdlog-feedstock.git
 	branch = main
 [submodule "recipes2/packages/su-exec-feedstock"]
 	path = recipes2/packages/su-exec-feedstock
-	url = git@github.com:e8035669acarmv7/su-exec-feedstock.git
+	url = ../../e8035669acarmv7/su-exec-feedstock.git
 	branch = main
 [submodule "recipes2/packages/termcolor-cpp-feedstock"]
 	path = recipes2/packages/termcolor-cpp-feedstock
-	url = git@github.com:e8035669acarmv7/termcolor-cpp-feedstock.git
+	url = ../../e8035669acarmv7/termcolor-cpp-feedstock.git
 	branch = main
 [submodule "recipes2/packages/tini-feedstock"]
 	path = recipes2/packages/tini-feedstock
-	url = git@github.com:e8035669acarmv7/tini-feedstock.git
+	url = ../../e8035669acarmv7/tini-feedstock.git
 	branch = main
 [submodule "recipes2/packages/waf-feedstock"]
 	path = recipes2/packages/waf-feedstock
-	url = git@github.com:e8035669acarmv7/waf-feedstock.git
+	url = ../../e8035669acarmv7/waf-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xcb-proto-feedstock"]
 	path = recipes2/packages/xcb-proto-feedstock
-	url = git@github.com:e8035669acarmv7/xcb-proto-feedstock.git
+	url = ../../e8035669acarmv7/xcb-proto-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-libxau-feedstock"]
 	path = recipes2/packages/xorg-libxau-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-libxau-feedstock.git
+	url = ../../e8035669acarmv7/xorg-libxau-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-libxdmcp-feedstock"]
 	path = recipes2/packages/xorg-libxdmcp-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-libxdmcp-feedstock.git
+	url = ../../e8035669acarmv7/xorg-libxdmcp-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-util-macros-feedstock"]
 	path = recipes2/packages/xorg-util-macros-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-util-macros-feedstock.git
+	url = ../../e8035669acarmv7/xorg-util-macros-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-xproto-feedstock"]
 	path = recipes2/packages/xorg-xproto-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-xproto-feedstock.git
+	url = ../../e8035669acarmv7/xorg-xproto-feedstock.git
 	branch = main
 [submodule "recipes2/packages/yaml-cpp-feedstock"]
 	path = recipes2/packages/yaml-cpp-feedstock
-	url = git@github.com:e8035669acarmv7/yaml-cpp-feedstock.git
+	url = ../../e8035669acarmv7/yaml-cpp-feedstock.git
 	branch = main
 [submodule "recipes2/packages/yarl-feedstock"]
 	path = recipes2/packages/yarl-feedstock
-	url = git@github.com:e8035669acarmv7/yarl-feedstock.git
+	url = ../../e8035669acarmv7/yarl-feedstock.git
 	branch = main
 [submodule "recipes2/packages/yasm-feedstock"]
 	path = recipes2/packages/yasm-feedstock
-	url = git@github.com:e8035669acarmv7/yasm-feedstock.git
+	url = ../../e8035669acarmv7/yasm-feedstock.git
 	branch = main
 [submodule "recipes2/packages/zstandard-feedstock"]
 	path = recipes2/packages/zstandard-feedstock
-	url = git@github.com:e8035669acarmv7/zstandard-feedstock.git
+	url = ../../e8035669acarmv7/zstandard-feedstock.git
 	branch = main
 [submodule "recipes3/cross/binutils-feedstock"]
 	path = recipes3/cross/binutils-feedstock
@@ -740,356 +740,356 @@
 	branch = main
 [submodule "recipes2/packages/aom-feedstock"]
 	path = recipes2/packages/aom-feedstock
-	url = git@github.com:e8035669acarmv7/aom-feedstock.git
+	url = ../../e8035669acarmv7/aom-feedstock.git
 	branch = main
 [submodule "recipes2/packages/attr-feedstock"]
 	path = recipes2/packages/attr-feedstock
-	url = git@github.com:e8035669acarmv7/attr-feedstock.git
+	url = ../../e8035669acarmv7/attr-feedstock.git
 	branch = main
 [submodule "recipes2/packages/autoconf-feedstock"]
 	path = recipes2/packages/autoconf-feedstock
-	url = git@github.com:e8035669acarmv7/autoconf-feedstock.git
+	url = ../../e8035669acarmv7/autoconf-feedstock.git
 	branch = v2.69
 [submodule "recipes2/packages/bash-feedstock"]
 	path = recipes2/packages/bash-feedstock
-	url = git@github.com:e8035669acarmv7/bash-feedstock.git
+	url = ../../e8035669acarmv7/bash-feedstock.git
 	branch = main
 [submodule "recipes2/packages/brotli-feedstock"]
 	path = recipes2/packages/brotli-feedstock
-	url = git@github.com:e8035669acarmv7/brotli-feedstock.git
+	url = ../../e8035669acarmv7/brotli-feedstock.git
 	branch = main
 [submodule "recipes2/packages/cairo-feedstock"]
 	path = recipes2/packages/cairo-feedstock
-	url = git@github.com:e8035669acarmv7/cairo-feedstock.git
+	url = ../../e8035669acarmv7/cairo-feedstock.git
 	branch = main
 [submodule "recipes2/packages/clangdev-feedstock"]
 	path = recipes2/packages/clangdev-feedstock
-	url = git@github.com:e8035669acarmv7/clangdev-feedstock.git
+	url = ../../e8035669acarmv7/clangdev-feedstock.git
 	branch = main
 [submodule "recipes2/packages/contourpy-feedstock"]
 	path = recipes2/packages/contourpy-feedstock
-	url = git@github.com:e8035669acarmv7/contourpy-feedstock.git
+	url = ../../e8035669acarmv7/contourpy-feedstock.git
 	branch = main
 [submodule "recipes2/packages/datefudge-feedstock"]
 	path = recipes2/packages/datefudge-feedstock
-	url = git@github.com:e8035669acarmv7/datefudge-feedstock.git
+	url = ../../e8035669acarmv7/datefudge-feedstock.git
 	branch = main
 [submodule "recipes2/packages/eigen-feedstock"]
 	path = recipes2/packages/eigen-feedstock
-	url = git@github.com:e8035669acarmv7/eigen-feedstock.git
+	url = ../../e8035669acarmv7/eigen-feedstock.git
 	branch = main
 [submodule "recipes2/packages/elfutils-feedstock"]
 	path = recipes2/packages/elfutils-feedstock
-	url = git@github.com:e8035669acarmv7/elfutils-feedstock.git
+	url = ../../e8035669acarmv7/elfutils-feedstock.git
 	branch = main
 [submodule "recipes2/packages/expat-feedstock"]
 	path = recipes2/packages/expat-feedstock
-	url = git@github.com:e8035669acarmv7/expat-feedstock.git
+	url = ../../e8035669acarmv7/expat-feedstock.git
 	branch = main
 [submodule "recipes2/packages/ffmpeg-feedstock"]
 	path = recipes2/packages/ffmpeg-feedstock
-	url = git@github.com:e8035669acarmv7/ffmpeg-feedstock.git
+	url = ../../e8035669acarmv7/ffmpeg-feedstock.git
 	branch = main
 [submodule "recipes2/packages/fontconfig-feedstock"]
 	path = recipes2/packages/fontconfig-feedstock
-	url = git@github.com:e8035669acarmv7/fontconfig-feedstock.git
+	url = ../../e8035669acarmv7/fontconfig-feedstock.git
 	branch = main
 [submodule "recipes2/packages/fonttools-feedstock"]
 	path = recipes2/packages/fonttools-feedstock
-	url = git@github.com:e8035669acarmv7/fonttools-feedstock.git
+	url = ../../e8035669acarmv7/fonttools-feedstock.git
 	branch = main
 [submodule "recipes2/packages/freeglut-feedstock"]
 	path = recipes2/packages/freeglut-feedstock
-	url = git@github.com:e8035669acarmv7/freeglut-feedstock.git
+	url = ../../e8035669acarmv7/freeglut-feedstock.git
 	branch = main
 [submodule "recipes2/packages/fribidi-feedstock"]
 	path = recipes2/packages/fribidi-feedstock
-	url = git@github.com:e8035669acarmv7/fribidi-feedstock.git
+	url = ../../e8035669acarmv7/fribidi-feedstock.git
 	branch = main
 [submodule "recipes2/packages/geos-feedstock"]
 	path = recipes2/packages/geos-feedstock
-	url = git@github.com:e8035669acarmv7/geos-feedstock.git
+	url = ../../e8035669acarmv7/geos-feedstock.git
 	branch = main
 [submodule "recipes2/packages/glib-feedstock"]
 	path = recipes2/packages/glib-feedstock
-	url = git@github.com:e8035669acarmv7/glib-feedstock.git
+	url = ../../e8035669acarmv7/glib-feedstock.git
 	branch = main
 [submodule "recipes2/packages/gnutls-feedstock"]
 	path = recipes2/packages/gnutls-feedstock
-	url = git@github.com:e8035669acarmv7/gnutls-feedstock.git
+	url = ../../e8035669acarmv7/gnutls-feedstock.git
 	branch = main
 [submodule "recipes2/packages/gobject-introspection-feedstock"]
 	path = recipes2/packages/gobject-introspection-feedstock
-	url = git@github.com:e8035669acarmv7/gobject-introspection-feedstock.git
+	url = ../../e8035669acarmv7/gobject-introspection-feedstock.git
 	branch = main
 [submodule "recipes2/packages/gperf-feedstock"]
 	path = recipes2/packages/gperf-feedstock
-	url = git@github.com:e8035669acarmv7/gperf-feedstock.git
+	url = ../../e8035669acarmv7/gperf-feedstock.git
 	branch = main
 [submodule "recipes2/packages/graphite2-feedstock"]
 	path = recipes2/packages/graphite2-feedstock
-	url = git@github.com:e8035669acarmv7/graphite2-feedstock.git
+	url = ../../e8035669acarmv7/graphite2-feedstock.git
 	branch = main
 [submodule "recipes2/packages/graphviz-feedstock"]
 	path = recipes2/packages/graphviz-feedstock
-	url = git@github.com:e8035669acarmv7/graphviz-feedstock.git
+	url = ../../e8035669acarmv7/graphviz-feedstock.git
 	branch = main
 [submodule "recipes2/packages/harfbuzz-feedstock"]
 	path = recipes2/packages/harfbuzz-feedstock
-	url = git@github.com:e8035669acarmv7/harfbuzz-feedstock.git
+	url = ../../e8035669acarmv7/harfbuzz-feedstock.git
 	branch = main
 [submodule "recipes2/packages/hdf5-feedstock"]
 	path = recipes2/packages/hdf5-feedstock
-	url = git@github.com:e8035669acarmv7/hdf5-feedstock.git
+	url = ../../e8035669acarmv7/hdf5-feedstock.git
 	branch = main
 [submodule "recipes2/packages/jasper-feedstock"]
 	path = recipes2/packages/jasper-feedstock
-	url = git@github.com:e8035669acarmv7/jasper-feedstock.git
+	url = ../../e8035669acarmv7/jasper-feedstock.git
 	branch = main
 [submodule "recipes2/packages/kiwisolver-feedstock"]
 	path = recipes2/packages/kiwisolver-feedstock
-	url = git@github.com:e8035669acarmv7/kiwisolver-feedstock.git
+	url = ../../e8035669acarmv7/kiwisolver-feedstock.git
 	branch = main
 [submodule "recipes2/packages/lame-feedstock"]
 	path = recipes2/packages/lame-feedstock
-	url = git@github.com:e8035669acarmv7/lame-feedstock.git
+	url = ../../e8035669acarmv7/lame-feedstock.git
 	branch = main
 [submodule "recipes2/packages/lapack-feedstock"]
 	path = recipes2/packages/lapack-feedstock
-	url = git@github.com:e8035669acarmv7/lapack-feedstock.git
+	url = ../../e8035669acarmv7/lapack-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libacl-feedstock"]
 	path = recipes2/packages/libacl-feedstock
-	url = git@github.com:e8035669acarmv7/libacl-feedstock.git
+	url = ../../e8035669acarmv7/libacl-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libaec-feedstock"]
 	path = recipes2/packages/libaec-feedstock
-	url = git@github.com:e8035669acarmv7/libaec-feedstock.git
+	url = ../../e8035669acarmv7/libaec-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libass-feedstock"]
 	path = recipes2/packages/libass-feedstock
-	url = git@github.com:e8035669acarmv7/libass-feedstock.git
+	url = ../../e8035669acarmv7/libass-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libcap-feedstock"]
 	path = recipes2/packages/libcap-feedstock
-	url = git@github.com:e8035669acarmv7/libcap-feedstock.git
+	url = ../../e8035669acarmv7/libcap-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libcbor-feedstock"]
 	path = recipes2/packages/libcbor-feedstock
-	url = git@github.com:e8035669acarmv7/libcbor-feedstock.git
+	url = ../../e8035669acarmv7/libcbor-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libfido2-feedstock"]
 	path = recipes2/packages/libfido2-feedstock
-	url = git@github.com:e8035669acarmv7/libfido2-feedstock.git
+	url = ../../e8035669acarmv7/libfido2-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libgcrypt-feedstock"]
 	path = recipes2/packages/libgcrypt-feedstock
-	url = git@github.com:e8035669acarmv7/libgcrypt-feedstock.git
+	url = ../../e8035669acarmv7/libgcrypt-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libglu-feedstock"]
 	path = recipes2/packages/libglu-feedstock
-	url = git@github.com:e8035669acarmv7/libglu-feedstock.git
+	url = ../../e8035669acarmv7/libglu-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libgpg-error-feedstock"]
 	path = recipes2/packages/libgpg-error-feedstock
-	url = git@github.com:e8035669acarmv7/libgpg-error-feedstock.git
+	url = ../../e8035669acarmv7/libgpg-error-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libmicrohttpd-feedstock"]
 	path = recipes2/packages/libmicrohttpd-feedstock
-	url = git@github.com:e8035669acarmv7/libmicrohttpd-feedstock.git
+	url = ../../e8035669acarmv7/libmicrohttpd-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libopus-feedstock"]
 	path = recipes2/packages/libopus-feedstock
-	url = git@github.com:e8035669acarmv7/libopus-feedstock.git
+	url = ../../e8035669acarmv7/libopus-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libprotobuf-feedstock"]
 	path = recipes2/packages/libprotobuf-feedstock
-	url = git@github.com:e8035669acarmv7/libprotobuf-feedstock.git
+	url = ../../e8035669acarmv7/libprotobuf-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libtasn1-feedstock"]
 	path = recipes2/packages/libtasn1-feedstock
-	url = git@github.com:e8035669acarmv7/libtasn1-feedstock.git
+	url = ../../e8035669acarmv7/libtasn1-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libusb-feedstock"]
 	path = recipes2/packages/libusb-feedstock
-	url = git@github.com:e8035669acarmv7/libusb-feedstock.git
+	url = ../../e8035669acarmv7/libusb-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libvpx-feedstock"]
 	path = recipes2/packages/libvpx-feedstock
-	url = git@github.com:e8035669acarmv7/libvpx-feedstock.git
+	url = ../../e8035669acarmv7/libvpx-feedstock.git
 	branch = main
 [submodule "recipes2/packages/matplotlib-feedstock"]
 	path = recipes2/packages/matplotlib-feedstock
-	url = git@github.com:e8035669acarmv7/matplotlib-feedstock.git
+	url = ../../e8035669acarmv7/matplotlib-feedstock.git
 	branch = main
 [submodule "recipes2/packages/nasm-feedstock"]
 	path = recipes2/packages/nasm-feedstock
-	url = git@github.com:e8035669acarmv7/nasm-feedstock.git
+	url = ../../e8035669acarmv7/nasm-feedstock.git
 	branch = main
 [submodule "recipes2/packages/nettle-feedstock"]
 	path = recipes2/packages/nettle-feedstock
-	url = git@github.com:e8035669acarmv7/nettle-feedstock.git
+	url = ../../e8035669acarmv7/nettle-feedstock.git
 	branch = main
 [submodule "recipes2/packages/opencv-feedstock"]
 	path = recipes2/packages/opencv-feedstock
-	url = git@github.com:e8035669acarmv7/opencv-feedstock.git
+	url = ../../e8035669acarmv7/opencv-feedstock.git
 	branch = main
 [submodule "recipes2/packages/openh264-feedstock"]
 	path = recipes2/packages/openh264-feedstock
-	url = git@github.com:e8035669acarmv7/openh264-feedstock.git
+	url = ../../e8035669acarmv7/openh264-feedstock.git
 	branch = main
 [submodule "recipes2/packages/openssh-feedstock"]
 	path = recipes2/packages/openssh-feedstock
-	url = git@github.com:e8035669acarmv7/openssh-feedstock.git
+	url = ../../e8035669acarmv7/openssh-feedstock.git
 	branch = main
 [submodule "recipes2/packages/p11-kit-feedstock"]
 	path = recipes2/packages/p11-kit-feedstock
-	url = git@github.com:e8035669acarmv7/p11-kit-feedstock.git
+	url = ../../e8035669acarmv7/p11-kit-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pixman-feedstock"]
 	path = recipes2/packages/pixman-feedstock
-	url = git@github.com:e8035669acarmv7/pixman-feedstock.git
+	url = ../../e8035669acarmv7/pixman-feedstock.git
 	branch = main
 [submodule "recipes2/packages/protobuf-feedstock"]
 	path = recipes2/packages/protobuf-feedstock
-	url = git@github.com:e8035669acarmv7/protobuf-feedstock.git
+	url = ../../e8035669acarmv7/protobuf-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pycairo-feedstock"]
 	path = recipes2/packages/pycairo-feedstock
-	url = git@github.com:e8035669acarmv7/pycairo-feedstock.git
+	url = ../../e8035669acarmv7/pycairo-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pydot-feedstock"]
 	path = recipes2/packages/pydot-feedstock
-	url = git@github.com:e8035669acarmv7/pydot-feedstock.git
+	url = ../../e8035669acarmv7/pydot-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pygobject-feedstock"]
 	path = recipes2/packages/pygobject-feedstock
-	url = git@github.com:e8035669acarmv7/pygobject-feedstock.git
+	url = ../../e8035669acarmv7/pygobject-feedstock.git
 	branch = main
 [submodule "recipes2/packages/pytorch-cpu-feedstock"]
 	path = recipes2/packages/pytorch-cpu-feedstock
-	url = git@github.com:e8035669acarmv7/pytorch-cpu-feedstock.git
+	url = ../../e8035669acarmv7/pytorch-cpu-feedstock.git
 	branch = main
 [submodule "recipes2/packages/seccomp-split-feedstock"]
 	path = recipes2/packages/seccomp-split-feedstock
-	url = git@github.com:e8035669acarmv7/seccomp-split-feedstock.git
+	url = ../../e8035669acarmv7/seccomp-split-feedstock.git
 	branch = main
 [submodule "recipes2/packages/setuptools-59"]
 	path = recipes2/packages/setuptools-59
-	url = git@github.com:e8035669acarmv7/setuptools-feedstock.git
+	url = ../../e8035669acarmv7/setuptools-feedstock.git
 	branch = 59_x
 [submodule "recipes2/packages/setuptools-feedstock"]
 	path = recipes2/packages/setuptools-feedstock
-	url = git@github.com:e8035669acarmv7/setuptools-feedstock.git
+	url = ../../e8035669acarmv7/setuptools-feedstock.git
 	branch = main
 [submodule "recipes2/packages/shapely-feedstock"]
 	path = recipes2/packages/shapely-feedstock
-	url = git@github.com:e8035669acarmv7/shapely-feedstock.git
+	url = ../../e8035669acarmv7/shapely-feedstock.git
 	branch = main
 [submodule "recipes2/packages/sleef-feedstock"]
 	path = recipes2/packages/sleef-feedstock
-	url = git@github.com:e8035669acarmv7/sleef-feedstock.git
+	url = ../../e8035669acarmv7/sleef-feedstock.git
 	branch = main
 [submodule "recipes2/packages/svt-av1-feedstock"]
 	path = recipes2/packages/svt-av1-feedstock
-	url = git@github.com:e8035669acarmv7/svt-av1-feedstock.git
+	url = ../../e8035669acarmv7/svt-av1-feedstock.git
 	branch = v1.4.1
 [submodule "recipes2/packages/systemd-feedstock"]
 	path = recipes2/packages/systemd-feedstock
-	url = git@github.com:e8035669acarmv7/systemd-feedstock.git
+	url = ../../e8035669acarmv7/systemd-feedstock.git
 	branch = main
 [submodule "recipes2/packages/unicodedata2-feedstock"]
 	path = recipes2/packages/unicodedata2-feedstock
-	url = git@github.com:e8035669acarmv7/unicodedata2-feedstock.git
+	url = ../../e8035669acarmv7/unicodedata2-feedstock.git
 	branch = main
 [submodule "recipes2/packages/util-linux-feedstock"]
 	path = recipes2/packages/util-linux-feedstock
-	url = git@github.com:e8035669acarmv7/util-linux-feedstock.git
+	url = ../../e8035669acarmv7/util-linux-feedstock.git
 	branch = main
 [submodule "recipes2/packages/vim-feedstock"]
 	path = recipes2/packages/vim-feedstock
-	url = git@github.com:e8035669acarmv7/vim-feedstock.git
+	url = ../../e8035669acarmv7/vim-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-damageproto-feedstock"]
 	path = recipes2/packages/xorg-damageproto-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-damageproto-feedstock.git
+	url = ../../e8035669acarmv7/xorg-damageproto-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-fixesproto-feedstock"]
 	path = recipes2/packages/xorg-fixesproto-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-fixesproto-feedstock.git
+	url = ../../e8035669acarmv7/xorg-fixesproto-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-inputproto-feedstock"]
 	path = recipes2/packages/xorg-inputproto-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-inputproto-feedstock.git
+	url = ../../e8035669acarmv7/xorg-inputproto-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-kbproto-feedstock"]
 	path = recipes2/packages/xorg-kbproto-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-kbproto-feedstock.git
+	url = ../../e8035669acarmv7/xorg-kbproto-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-libice-feedstock"]
 	path = recipes2/packages/xorg-libice-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-libice-feedstock.git
+	url = ../../e8035669acarmv7/xorg-libice-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-libsm-feedstock"]
 	path = recipes2/packages/xorg-libsm-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-libsm-feedstock.git
+	url = ../../e8035669acarmv7/xorg-libsm-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-libx11-feedstock"]
 	path = recipes2/packages/xorg-libx11-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-libx11-feedstock.git
+	url = ../../e8035669acarmv7/xorg-libx11-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-libxext-feedstock"]
 	path = recipes2/packages/xorg-libxext-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-libxext-feedstock.git
+	url = ../../e8035669acarmv7/xorg-libxext-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-libxfixes-feedstock"]
 	path = recipes2/packages/xorg-libxfixes-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-libxfixes-feedstock.git
+	url = ../../e8035669acarmv7/xorg-libxfixes-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-libxi-feedstock"]
 	path = recipes2/packages/xorg-libxi-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-libxi-feedstock.git
+	url = ../../e8035669acarmv7/xorg-libxi-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-libxrender-feedstock"]
 	path = recipes2/packages/xorg-libxrender-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-libxrender-feedstock.git
+	url = ../../e8035669acarmv7/xorg-libxrender-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-libxt-feedstock"]
 	path = recipes2/packages/xorg-libxt-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-libxt-feedstock.git
+	url = ../../e8035669acarmv7/xorg-libxt-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-renderproto-feedstock"]
 	path = recipes2/packages/xorg-renderproto-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-renderproto-feedstock.git
+	url = ../../e8035669acarmv7/xorg-renderproto-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-xextproto-feedstock"]
 	path = recipes2/packages/xorg-xextproto-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-xextproto-feedstock.git
+	url = ../../e8035669acarmv7/xorg-xextproto-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-xf86vidmodeproto-feedstock"]
 	path = recipes2/packages/xorg-xf86vidmodeproto-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-xf86vidmodeproto-feedstock.git
+	url = ../../e8035669acarmv7/xorg-xf86vidmodeproto-feedstock.git
 	branch = main
 [submodule "recipes2/packages/xorg-xtrans-feedstock"]
 	path = recipes2/packages/xorg-xtrans-feedstock
-	url = git@github.com:e8035669acarmv7/xorg-xtrans-feedstock.git
+	url = ../../e8035669acarmv7/xorg-xtrans-feedstock.git
 	branch = main
 [submodule "docker-images"]
 	path = docker-images
 	url = ../../e8035669acarmv7/docker-images.git
 [submodule "recipes2/packages/conda-pack-feedstock"]
 	path = recipes2/packages/conda-pack-feedstock
-	url = git@github.com:e8035669acarmv7/conda-pack-feedstock.git
+	url = ../../e8035669acarmv7/conda-pack-feedstock.git
 	branch = main
 [submodule "recipes2/packages/brotlipy-feedstock"]
 	path = recipes2/packages/brotlipy-feedstock
-	url = git@github.com:e8035669acarmv7/brotlipy-feedstock.git
+	url = ../../e8035669acarmv7/brotlipy-feedstock.git
 	branch = main
 [submodule "recipes2/packages/gdb-feedstock"]
 	path = recipes2/packages/gdb-feedstock
-	url = git@github.com:e8035669acarmv7/gdb-feedstock.git
+	url = ../../e8035669acarmv7/gdb-feedstock.git
 	branch = main
 [submodule "recipes2/packages/tornado-feedstock"]
 	path = recipes2/packages/tornado-feedstock
-	url = git@github.com:e8035669acarmv7/tornado-feedstock.git
+	url = ../../e8035669acarmv7/tornado-feedstock.git
 	branch = main
