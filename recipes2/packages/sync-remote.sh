@@ -66,7 +66,7 @@ function merge_from_upstream() {
 }
 
 function git_push() {
-    while read i; do
+    for i in */; do
         echo ${i}
 
         gitc="git -C ${i}"
@@ -76,7 +76,7 @@ function git_push() {
         # exit 0
         echo ""
 
-    done < ./need_update.txt
+    done
 }
 
 
