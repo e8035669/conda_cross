@@ -42,6 +42,7 @@ def get_newest_version(pkgs, pkgname):
         return max(all_versions)
     return None
 
+
 def main():
     myrepodata_noarch = get_repodata('e8035669acarmv7/noarch')
     myrepodata_armv7l = get_repodata('e8035669acarmv7/linux-armv7l')
@@ -49,11 +50,13 @@ def main():
     conda_noarch = get_repodata('conda-forge/noarch')
     conda_x64 = get_repodata('conda-forge/linux-64')
 
-    all_pkgs = lambda: chain_pkgs2(myrepodata_armv7l, myrepodata_noarch)
-    conda_forge_pkg = lambda: chain_pkgs2(conda_noarch, conda_x64)
+    def all_pkgs():
+        return chain_pkgs2(myrepodata_armv7l, myrepodata_noarch)
+
+    def conda_forge_pkg():
+        return chain_pkgs2(conda_noarch, conda_x64)
 
     pkgnames = get_all_pkgname(all_pkgs())
-
 
     not_found = []
     greater = []
@@ -64,6 +67,17 @@ def main():
         print(name, version)
 
         conda_version = get_newest_version(conda_forge_pkg(), name)
+        if conda_version is None:
+            if name.endswith('cos7-armv7l'):
+                cdt_pkg = name.replace('cos7-armv7l', 'cos7-x86_64')
+                conda_version = get_newest_version(conda_forge_pkg(), cdt_pkg)
+            elif name.endswith('linux-armv7l'):
+                comp_pkg = name.replace('linux-armv7l', 'linux-64')
+                conda_version = get_newest_version(conda_forge_pkg(), comp_pkg)
+            elif name.endswith('armv7-unknown-linux-gnueabihf'):
+                rust_pkg = name.replace('armv7-unknown-linux-gnueabihf', 'x86_64-unknown-linux-gnu')
+                conda_version = get_newest_version(conda_forge_pkg(), rust_pkg)
+
         if conda_version is None:
             not_found.append(name)
         elif conda_version > version:
@@ -82,8 +96,6 @@ def main():
     print('-' * 10, 'need update', '-' * 10)
     for p, v, vc in greater:
         print(p, f'{v} -> {vc}')
-
-
 
 
 if __name__ == '__main__':
