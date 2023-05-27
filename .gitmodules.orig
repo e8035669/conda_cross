@@ -278,10 +278,6 @@
 	path = recipes2/packages/ccache-feedstock
 	url = git@github.com:e8035669acarmv7/ccache-feedstock.git
 	branch = main
-[submodule "recipes2/packages/certifi-feedstock"]
-	path = recipes2/packages/certifi-feedstock
-	url = git@github.com:e8035669acarmv7/certifi-feedstock.git
-	branch = main
 [submodule "recipes2/packages/cffi-feedstock"]
 	path = recipes2/packages/cffi-feedstock
 	url = git@github.com:e8035669acarmv7/cffi-feedstock.git
@@ -1092,17 +1088,41 @@
 	branch = main
 [submodule "recipes2/special_version/autoconf-feedstock"]
 	path = recipes2/special_version/autoconf-feedstock
-	url = git@github.com:e8035669acarmv7/autoconf-feedstock.git
+	url = ../../e8035669acarmv7/autoconf-feedstock.git
 	branch = v2.69
 [submodule "recipes2/special_version/conda-feedstock"]
 	path = recipes2/special_version/conda-feedstock
-	url = git@github.com:e8035669acarmv7/conda-feedstock.git
+	url = ../../e8035669acarmv7/conda-feedstock.git
 	branch = v22.11.1
 [submodule "recipes2/special_version/setuptools-feedstock"]
 	path = recipes2/special_version/setuptools-feedstock
-	url = git@github.com:e8035669acarmv7/setuptools-feedstock.git
+	url = ../../e8035669acarmv7/setuptools-feedstock.git
 	branch = 59_x
 [submodule "recipes2/special_version/svt-av1-feedstock"]
 	path = recipes2/special_version/svt-av1-feedstock
-	url = git@github.com:e8035669acarmv7/svt-av1-feedstock.git
+	url = ../../e8035669acarmv7/svt-av1-feedstock.git
 	branch = v1.4.1
+[submodule "recipes2/packages/ca-certificates-feedstock"]
+	path = recipes2/packages/ca-certificates-feedstock
+	url = git@github.com:e8035669acarmv7/ca-certificates-feedstock.git
+	branch = main
+[submodule "recipes2/packages/abseil-cpp-feedstock"]
+	path = recipes2/packages/abseil-cpp-feedstock
+	url = git@github.com:e8035669acarmv7/abseil-cpp-feedstock.git
+	branch = main
+[submodule "recipes2/packages/cmake-feedstock"]
+	path = recipes2/packages/cmake-feedstock
+	url = git@github.com:e8035669acarmv7/cmake-feedstock.git
+	branch = main
+[submodule "recipes2/packages/dav1d-feedstock"]
+	path = recipes2/packages/dav1d-feedstock
+	url = git@github.com:e8035669acarmv7/dav1d-feedstock.git
+	branch = main
+[submodule "recipes2/packages/gtest-feedstock"]
+	path = recipes2/packages/gtest-feedstock
+	url = git@github.com:e8035669acarmv7/gtest-feedstock.git
+	branch = main
+[submodule "recipes2/packages/jsoncpp-feedstock"]
+	path = recipes2/packages/jsoncpp-feedstock
+	url = git@github.com:e8035669acarmv7/jsoncpp-feedstock.git
+	branch = main

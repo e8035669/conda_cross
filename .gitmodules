@@ -278,10 +278,6 @@
 	path = recipes2/packages/ccache-feedstock
 	url = ../../e8035669acarmv7/ccache-feedstock.git
 	branch = main
-[submodule "recipes2/packages/certifi-feedstock"]
-	path = recipes2/packages/certifi-feedstock
-	url = ../../e8035669acarmv7/certifi-feedstock.git
-	branch = main
 [submodule "recipes2/packages/cffi-feedstock"]
 	path = recipes2/packages/cffi-feedstock
 	url = ../../e8035669acarmv7/cffi-feedstock.git
@@ -1106,3 +1102,27 @@
 	path = recipes2/special_version/svt-av1-feedstock
 	url = ../../e8035669acarmv7/svt-av1-feedstock.git
 	branch = v1.4.1
+[submodule "recipes2/packages/ca-certificates-feedstock"]
+	path = recipes2/packages/ca-certificates-feedstock
+	url = ../../e8035669acarmv7/ca-certificates-feedstock.git
+	branch = main
+[submodule "recipes2/packages/abseil-cpp-feedstock"]
+	path = recipes2/packages/abseil-cpp-feedstock
+	url = ../../e8035669acarmv7/abseil-cpp-feedstock.git
+	branch = main
+[submodule "recipes2/packages/cmake-feedstock"]
+	path = recipes2/packages/cmake-feedstock
+	url = ../../e8035669acarmv7/cmake-feedstock.git
+	branch = main
+[submodule "recipes2/packages/dav1d-feedstock"]
+	path = recipes2/packages/dav1d-feedstock
+	url = ../../e8035669acarmv7/dav1d-feedstock.git
+	branch = main
+[submodule "recipes2/packages/gtest-feedstock"]
+	path = recipes2/packages/gtest-feedstock
+	url = ../../e8035669acarmv7/gtest-feedstock.git
+	branch = main
+[submodule "recipes2/packages/jsoncpp-feedstock"]
+	path = recipes2/packages/jsoncpp-feedstock
+	url = ../../e8035669acarmv7/jsoncpp-feedstock.git
+	branch = main
