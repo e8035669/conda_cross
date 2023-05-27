@@ -1128,17 +1128,17 @@
 	branch = main
 [submodule "recipes2/packages/patchelf-feedstock"]
 	path = recipes2/packages/patchelf-feedstock
-	url = git@github.com:e8035669acarmv7/patchelf-feedstock.git
+	url = ../../e8035669acarmv7/patchelf-feedstock.git
 	branch = main
 [submodule "recipes2/packages/c-ares-feedstock"]
 	path = recipes2/packages/c-ares-feedstock
-	url = git@github.com:e8035669acarmv7/c-ares-feedstock.git
+	url = ../../e8035669acarmv7/c-ares-feedstock.git
 	branch = main
 [submodule "recipes2/packages/sqlite-feedstock"]
 	path = recipes2/packages/sqlite-feedstock
-	url = git@github.com:e8035669acarmv7/sqlite-feedstock.git
+	url = ../../e8035669acarmv7/sqlite-feedstock.git
 	branch = main
 [submodule "recipes2/packages/bison-feedstock"]
 	path = recipes2/packages/bison-feedstock
-	url = git@github.com:e8035669acarmv7/bison-feedstock.git
+	url = ../../e8035669acarmv7/bison-feedstock.git
 	branch = main
