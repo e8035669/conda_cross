@@ -79,6 +79,31 @@ function git_push() {
     done
 }
 
+function add_upstream() {
+    for i in */; do
+        echo $i
+
+        gitc="git -C ${i}"
+
+        origin=$(${gitc} remote get-url origin)
+        upstream=$(echo "${origin}" | sed 's/e8035669acarmv7/conda-forge/g' | sed 's/git@github.com:/https:\/\/github.com\//g')
+
+        ret=0
+        ${gitc} remote | grep upstream > /dev/null || ret=$?
+        if [ "${ret}" -eq "0" ]; then
+            cur_upstream=$(${gitc} remote get-url upstream)
+            if [ "${cur_upstream}" != "${upstream}" ]; then
+                ${gitc} remote remove upstream
+                ${gitc} remote add -t main upstream "${upstream}"
+            fi
+        else
+            ${gitc} remote add -t main upstream "${upstream}"
+        fi
+
+
+    done
+}
+
 
 
 if [ "$1" == "sync_remote" ]; then
@@ -87,6 +112,8 @@ elif [ "$1" == "merge_from_upstream" ]; then
     merge_from_upstream
 elif [ "$1" == "git_push" ]; then
     git_push
+elif [ "$1" == "add_upstream" ]; then
+    add_upstream
 fi
 
 
