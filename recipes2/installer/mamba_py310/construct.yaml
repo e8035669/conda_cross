@@ -1,5 +1,5 @@
 name: mamba4arm
-version: 1.0.3-py310
+version: 1.0.4-py310
 
 channels:
   - e8035669acarmv7
