@@ -1,0 +1,102 @@
+build_type:
+  - release
+
+c_compiler:
+  - gcc
+
+c_compiler_version:
+  - "12"
+
+channel_sources:
+  - conda-forge
+
+channel_targets:
+  - conda-forge main
+
+cxx_compiler:
+  - gxx
+
+cxx_compiler_version:
+  - "12"
+
+cdt_name:
+  - cos7
+
+cdt_arch:
+  - armv7l
+
+BUILD:
+  - "armv7-conda_cos7-linux-gnueabihf"
+# _sysconfigdata__linux_arm-linux-gnueabihf
+
+perl:
+  - "5.32.1"
+bzip2:
+  - '1'
+expat:
+  - '2'
+libffi:
+  - '3.4'
+libuuid:
+  - '2'
+ncurses:
+  - '6'
+openssl:
+  - '3'
+readline:
+  - '8'
+sqlite:
+  - '3'
+tk:
+  - '8.6'
+xz:
+  - '5'
+zlib:
+  - '1.2'
+libzlib:
+  - '1.2'
+python:
+  - '3.11'
+  - '3.10'
+  - '3.9'
+  - '3.8'
+python_impl:
+  - cpython
+  - cpython
+  - cpython
+  - cpython
+numpy:
+  - '1.24'
+giflib:
+- '5.2'
+libjpeg_turbo:
+- 2.1.5
+libpng:
+- '1.6'
+libtiff:
+- '4.5'
+freetype:
+- '2'
+libwebp:
+- '1'
+openjpeg:
+- '2'
+lerc:
+- '4'
+libdeflate:
+- '1.18'
+libwebp_base:
+- '1'
+
+pin_run_as_build:
+  python:
+    min_pin: x.x
+    max_pin: x.x
+
+target_platform:
+  - linux-armv7l
+
+zip_keys:
+  - - python
+    - python_impl
+

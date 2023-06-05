@@ -1142,3 +1142,27 @@
 	path = recipes2/packages/bison-feedstock
 	url = ../../e8035669acarmv7/bison-feedstock.git
 	branch = main
+[submodule "recipes2/packages/onnxruntime-feedstock"]
+	path = recipes2/packages/onnxruntime-feedstock
+	url = ../../e8035669acarmv7/onnxruntime-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libdate-feedstock"]
+	path = recipes2/packages/libdate-feedstock
+	url = ../../e8035669acarmv7/libdate-feedstock.git
+	branch = main
+[submodule "recipes2/packages/optional-lite-feedstock"]
+	path = recipes2/packages/optional-lite-feedstock
+	url = ../../e8035669acarmv7/optional-lite-feedstock.git
+	branch = main
+[submodule "recipes2/packages/humanfriendly-feedstock"]
+	path = recipes2/packages/humanfriendly-feedstock
+	url = ../../e8035669acarmv7/humanfriendly-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/libprotobuf-feedstock"]
+	path = recipes2/special_version/libprotobuf_3.20.x
+	url = ../../e8035669acarmv7/libprotobuf-feedstock.git
+	branch = 3.20.x
+[submodule "recipes2/special_version/libprotobuf_3.21.x"]
+	path = recipes2/special_version/libprotobuf_3.21.x
+	url = ../../e8035669acarmv7/libprotobuf-feedstock.git
+	branch = 3.21.x

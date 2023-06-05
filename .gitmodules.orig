@@ -1128,17 +1128,41 @@
 	branch = main
 [submodule "recipes2/packages/patchelf-feedstock"]
 	path = recipes2/packages/patchelf-feedstock
-	url = git@github.com:e8035669acarmv7/patchelf-feedstock.git
+	url = ../../e8035669acarmv7/patchelf-feedstock.git
 	branch = main
 [submodule "recipes2/packages/c-ares-feedstock"]
 	path = recipes2/packages/c-ares-feedstock
-	url = git@github.com:e8035669acarmv7/c-ares-feedstock.git
+	url = ../../e8035669acarmv7/c-ares-feedstock.git
 	branch = main
 [submodule "recipes2/packages/sqlite-feedstock"]
 	path = recipes2/packages/sqlite-feedstock
-	url = git@github.com:e8035669acarmv7/sqlite-feedstock.git
+	url = ../../e8035669acarmv7/sqlite-feedstock.git
 	branch = main
 [submodule "recipes2/packages/bison-feedstock"]
 	path = recipes2/packages/bison-feedstock
-	url = git@github.com:e8035669acarmv7/bison-feedstock.git
+	url = ../../e8035669acarmv7/bison-feedstock.git
 	branch = main
+[submodule "recipes2/packages/onnxruntime-feedstock"]
+	path = recipes2/packages/onnxruntime-feedstock
+	url = git@github.com:e8035669acarmv7/onnxruntime-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libdate-feedstock"]
+	path = recipes2/packages/libdate-feedstock
+	url = git@github.com:e8035669acarmv7/libdate-feedstock.git
+	branch = main
+[submodule "recipes2/packages/optional-lite-feedstock"]
+	path = recipes2/packages/optional-lite-feedstock
+	url = git@github.com:e8035669acarmv7/optional-lite-feedstock.git
+	branch = main
+[submodule "recipes2/packages/humanfriendly-feedstock"]
+	path = recipes2/packages/humanfriendly-feedstock
+	url = git@github.com:e8035669acarmv7/humanfriendly-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/libprotobuf-feedstock"]
+	path = recipes2/special_version/libprotobuf_3.20.x
+	url = git@github.com:e8035669acarmv7/libprotobuf-feedstock.git
+	branch = 3.20.x
+[submodule "recipes2/special_version/libprotobuf_3.21.x"]
+	path = recipes2/special_version/libprotobuf_3.21.x
+	url = git@github.com:e8035669acarmv7/libprotobuf-feedstock.git
+	branch = 3.21.x
