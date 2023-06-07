@@ -1166,3 +1166,15 @@
 	path = recipes2/special_version/libprotobuf_3.21.x
 	url = ../../e8035669acarmv7/libprotobuf-feedstock.git
 	branch = 3.21.x
+[submodule "recipes2/packages/ncurses-feedstock"]
+	path = recipes2/packages/ncurses-feedstock
+	url = ../../e8035669acarmv7/ncurses-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libssh2-feedstock"]
+	path = recipes2/packages/libssh2-feedstock
+	url = ../../e8035669acarmv7/libssh2-feedstock.git
+	branch = main
+[submodule "recipes2/packages/openssl-feedstock"]
+	path = recipes2/packages/openssl-feedstock
+	url = ../../e8035669acarmv7/openssl-feedstock.git
+	branch = main

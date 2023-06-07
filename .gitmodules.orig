@@ -1144,25 +1144,37 @@
 	branch = main
 [submodule "recipes2/packages/onnxruntime-feedstock"]
 	path = recipes2/packages/onnxruntime-feedstock
-	url = git@github.com:e8035669acarmv7/onnxruntime-feedstock.git
+	url = ../../e8035669acarmv7/onnxruntime-feedstock.git
 	branch = main
 [submodule "recipes2/packages/libdate-feedstock"]
 	path = recipes2/packages/libdate-feedstock
-	url = git@github.com:e8035669acarmv7/libdate-feedstock.git
+	url = ../../e8035669acarmv7/libdate-feedstock.git
 	branch = main
 [submodule "recipes2/packages/optional-lite-feedstock"]
 	path = recipes2/packages/optional-lite-feedstock
-	url = git@github.com:e8035669acarmv7/optional-lite-feedstock.git
+	url = ../../e8035669acarmv7/optional-lite-feedstock.git
 	branch = main
 [submodule "recipes2/packages/humanfriendly-feedstock"]
 	path = recipes2/packages/humanfriendly-feedstock
-	url = git@github.com:e8035669acarmv7/humanfriendly-feedstock.git
+	url = ../../e8035669acarmv7/humanfriendly-feedstock.git
 	branch = main
 [submodule "recipes2/special_version/libprotobuf-feedstock"]
 	path = recipes2/special_version/libprotobuf_3.20.x
-	url = git@github.com:e8035669acarmv7/libprotobuf-feedstock.git
+	url = ../../e8035669acarmv7/libprotobuf-feedstock.git
 	branch = 3.20.x
 [submodule "recipes2/special_version/libprotobuf_3.21.x"]
 	path = recipes2/special_version/libprotobuf_3.21.x
-	url = git@github.com:e8035669acarmv7/libprotobuf-feedstock.git
+	url = ../../e8035669acarmv7/libprotobuf-feedstock.git
 	branch = 3.21.x
+[submodule "recipes2/packages/ncurses-feedstock"]
+	path = recipes2/packages/ncurses-feedstock
+	url = git@github.com:e8035669acarmv7/ncurses-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libssh2-feedstock"]
+	path = recipes2/packages/libssh2-feedstock
+	url = git@github.com:e8035669acarmv7/libssh2-feedstock.git
+	branch = main
+[submodule "recipes2/packages/openssl-feedstock"]
+	path = recipes2/packages/openssl-feedstock
+	url = git@github.com:e8035669acarmv7/openssl-feedstock.git
+	branch = main
