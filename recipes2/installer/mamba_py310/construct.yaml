@@ -1,5 +1,5 @@
 name: mamba4arm
-version: 1.0.4-py310
+version: 1.0.5-py310
 
 channels:
   - e8035669acarmv7
@@ -20,5 +20,5 @@ specs:
   - python=3.10
   - conda
   - pip
-  - mamba
+  - mamba=1.4
 

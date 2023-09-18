@@ -1178,3 +1178,83 @@
 	path = recipes2/packages/openssl-feedstock
 	url = ../../e8035669acarmv7/openssl-feedstock.git
 	branch = main
+[submodule "recipes2/packages/rhash-feedstock"]
+	path = recipes2/packages/rhash-feedstock
+	url = git@github.com:e8035669acarmv7/rhash-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libuv-feedstock"]
+	path = recipes2/packages/libuv-feedstock
+	url = git@github.com:e8035669acarmv7/libuv-feedstock.git
+	branch = main
+[submodule "recipes2/packages/rsync-feedstock"]
+	path = recipes2/packages/rsync-feedstock
+	url = git@github.com:e8035669acarmv7/rsync-feedstock.git
+	branch = main
+[submodule "recipes2/packages/lz4-c-feedstock"]
+	path = recipes2/packages/lz4-c-feedstock
+	url = git@github.com:e8035669acarmv7/lz4-c-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xxhash-feedstock"]
+	path = recipes2/packages/xxhash-feedstock
+	url = git@github.com:e8035669acarmv7/xxhash-feedstock.git
+	branch = main
+[submodule "recipes2/packages/popt-feedstock"]
+	path = recipes2/packages/popt-feedstock
+	url = git@github.com:e8035669acarmv7/popt-feedstock.git
+	branch = main
+[submodule "recipes2/packages/openvino-feedstock"]
+	path = recipes2/packages/openvino-feedstock
+	url = git@github.com:e8035669acarmv7/openvino-feedstock.git
+	branch = main
+[submodule "recipes2/packages/coreutils-feedstock"]
+	path = recipes2/packages/coreutils-feedstock
+	url = git@github.com:e8035669acarmv7/coreutils-feedstock.git
+	branch = main
+[submodule "recipes2/packages/pycryptodome-feedstock"]
+	path = recipes2/packages/pycryptodome-feedstock
+	url = git@github.com:e8035669acarmv7/pycryptodome-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/mamba-1.4.2"]
+	path = recipes2/special_version/mamba-1.4.2
+	url = git@github.com:e8035669acarmv7/mamba-feedstock.git
+	branch = v1.4.2-with-fix
+[submodule "recipes2/special_version/micromamba-1.4.2"]
+	path = recipes2/special_version/micromamba-1.4.2
+	url = git@github.com:e8035669acarmv7/micromamba-feedstock.git
+	branch = v1.4.2-with-fix
+[submodule "recipes2/packages/zstd-feedstock"]
+	path = recipes2/packages/zstd-feedstock
+	url = git@github.com:e8035669acarmv7/zstd-feedstock.git
+	branch = main
+[submodule "recipes2/packages/cmake-no-system-feedstock"]
+	path = recipes2/packages/cmake-no-system-feedstock
+	url = git@github.com:e8035669acarmv7/cmake-no-system-feedstock.git
+	branch = main
+[submodule "recipes2/packages/ctng-compilers-feedstock"]
+	path = recipes2/packages/ctng-compilers-feedstock
+	url = git@github.com:e8035669acarmv7/ctng-compilers-feedstock.git
+	branch = main
+[submodule "recipes2/packages/conda-forge-ci-setup-feedstock"]
+	path = recipes2/packages/conda-forge-ci-setup-feedstock
+	url = git@github.com:e8035669acarmv7/conda-forge-ci-setup-feedstock.git
+	branch = main
+[submodule "recipes2/packages/jq-feedstock"]
+	path = recipes2/packages/jq-feedstock
+	url = git@github.com:e8035669acarmv7/jq-feedstock.git
+	branch = main
+[submodule "recipes2/packages/oniguruma-feedstock"]
+	path = recipes2/packages/oniguruma-feedstock
+	url = git@github.com:e8035669acarmv7/oniguruma-feedstock.git
+	branch = main
+[submodule "recipes2/packages/rust-feedstock"]
+	path = recipes2/packages/rust-feedstock
+	url = git@github.com:e8035669acarmv7/rust-feedstock.git
+	branch = main
+[submodule "recipes2/packages/rust-activation-feedstock"]
+	path = recipes2/packages/rust-activation-feedstock
+	url = git@github.com:e8035669acarmv7/rust-activation-feedstock.git
+	branch = main
+[submodule "recipes2/packages/ctng-compiler-activation-feedstock"]
+	path = recipes2/packages/ctng-compiler-activation-feedstock
+	url = git@github.com:e8035669acarmv7/ctng-compiler-activation-feedstock.git
+	branch = main
