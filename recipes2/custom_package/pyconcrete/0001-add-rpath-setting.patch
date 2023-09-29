@@ -1,0 +1,24 @@
+From c3ce6c9f38cdc9d920a8cad0aa90e83989ecf4eb Mon Sep 17 00:00:00 2001
+From: Yu-Ren Zhang <e8035669@gmail.com>
+Date: Fri, 29 Sep 2023 20:00:39 +0800
+Subject: [PATCH] add rpath setting
+
+---
+ setup.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/setup.py b/setup.py
+index 622bbc6..b0c1521 100644
+--- a/setup.py
++++ b/setup.py
+@@ -418,6 +418,7 @@ exe_module = Extension(
+         join(EXT_SRC_DIR, 'pyconcrete.c'),
+     ]
+     + openaes_sources,
++    runtime_library_dirs=['$ORIGIN/../lib'],
+ )
+ 
+ # ================================================= setup ================================================= #
+-- 
+2.20.1
+
