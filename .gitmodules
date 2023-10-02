@@ -1258,3 +1258,7 @@
 	path = recipes2/packages/ctng-compiler-activation-feedstock
 	url = git@github.com:e8035669acarmv7/ctng-compiler-activation-feedstock.git
 	branch = main
+[submodule "recipes2/packages/python-feedstock"]
+	path = recipes2/packages/python-feedstock
+	url = git@github.com:e8035669acarmv7/python-feedstock.git
+	branch = main
