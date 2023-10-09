@@ -1262,3 +1262,6 @@
 	path = recipes2/packages/python-feedstock
 	url = git@github.com:e8035669acarmv7/python-feedstock.git
 	branch = main
+[submodule "recipes2/special_version/python-3.11"]
+	path = recipes2/special_version/python-3.11
+	url = git@github.com:e8035669acarmv7/python-feedstock.git
