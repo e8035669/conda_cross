@@ -1,5 +1,5 @@
 name: conda4arm
-version: 1.0.5a
+version: 1.0.7a
 
 channels:
   - e8035669acarmv7
@@ -17,8 +17,8 @@ write_condarc: True
 initialize_by_default: False
 
 specs:
-  - python
-  - conda
+  - python=3.11
+  - conda=24.5.0
   - pip
   - numpy
   - opencv
@@ -30,6 +30,7 @@ specs:
   - openssh
   - git
   - bash
+  - cryptography
 
 extra_files:
   - change_home.sh: etc/conda/activate.d/change_home.sh

@@ -1,5 +1,5 @@
 name: mamba4arm
-version: 1.0.5-py310
+version: 1.0.7-py311
 
 channels:
   - e8035669acarmv7
@@ -17,8 +17,8 @@ write_condarc: True
 initialize_by_default: False
 
 specs:
-  - python=3.10
-  - conda
+  - python=3.11
+  - conda=24.5.0
   - pip
-  - mamba=1.4
+  - mamba=1.5.8
 

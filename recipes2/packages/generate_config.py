@@ -3,20 +3,32 @@
 import glob
 import sys
 from pathlib import Path
+import argparse
+
 from ruamel.yaml import YAML
 
-def main():
+def parsearg():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--yaml')
+    parser.add_argument('--python', action='store_true', help='python mode, split python version as parallel ci')
+    return parser.parse_args()
 
-    all_files = glob.glob('.ci_support/linux_*.yaml')
-    if len(all_files) == 1:
-        raise RuntimeError('Maybe this project is noarch')
+def main(arg):
+    print(arg)
 
-    files = glob.glob('.ci_support/linux_64*cpython*.yaml')
+    if not arg.yaml:
+        all_files = glob.glob('.ci_support/linux_*.yaml')
+        if len(all_files) == 1:
+            raise RuntimeError('Maybe this project is noarch')
 
-    if len(files) == 0:
-        files = glob.glob('.ci_support/linux_64*.yaml')
+        files = glob.glob('.ci_support/linux_64*cpython*.yaml')
 
-    template_file = files[0]
+        if len(files) == 0:
+            files = glob.glob('.ci_support/linux_64*.yaml')
+        template_file = files[0]
+    else:
+        template_file = arg.yaml
+
     print('Read template file', template_file)
 
 
@@ -48,14 +60,17 @@ def main():
 
     if 'python' in data:
         orig = data['python'][0]
-        pyvers = ['3.11', '3.10', '3.9', '3.8']
+        pyvers = ['3.12', '3.11', '3.10', '3.9', '3.8']
         if 'cpython' in orig:
             data['python'] = [f"{i}.* *_cpython" for i in pyvers]
         else:
             data['python'] = pyvers
 
     if 'python_impl' in data:
-        data['python_impl'] = ['cpython'] * 4
+        data['python_impl'] = ['cpython'] * 5
+
+    if 'c_stdlib_version' in data:
+        data['c_stdlib_version'][0] = '2.17'
 
     data.update(override)
 
@@ -66,7 +81,27 @@ def main():
     print('Write to', output)
     yaml.dump(data, output)
 
+    if arg.python:
+        pynames = ['312', '311', '310', '39', '38']
+        if 'python' not in data and 'python_impl' not in data:
+            raise RuntimeError('maybe this is not python package?')
+
+        for i, pyname in enumerate(pynames):
+            new_data = data.copy()
+            if 'python' in data:
+                new_data['python'] = [data['python'][i]]
+
+            if 'python_impl' in data:
+                new_data['python_impl'] = [data['python_impl'][i]]
+
+            output_path = Path('.ci_support') / f'linux_armv7l_config_py{pyname}.yaml'
+            print('Write to', output_path)
+            yaml.dump(new_data, output_path)
+
+
+
+
 
 if __name__ == '__main__':
-    main()
+    main(parsearg())
 

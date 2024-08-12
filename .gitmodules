@@ -258,10 +258,6 @@
 	path = recipes2/packages/aiohttp-feedstock
 	url = ../../e8035669acarmv7/aiohttp-feedstock.git
 	branch = main
-[submodule "recipes2/packages/asciidoctor-feedstock"]
-	path = recipes2/packages/asciidoctor-feedstock
-	url = ../../e8035669acarmv7/asciidoctor-feedstock.git
-	branch = main
 [submodule "recipes2/packages/blas-feedstock"]
 	path = recipes2/packages/blas-feedstock
 	url = ../../e8035669acarmv7/blas-feedstock.git
@@ -1262,6 +1258,156 @@
 	path = recipes2/packages/python-feedstock
 	url = git@github.com:e8035669acarmv7/python-feedstock.git
 	branch = main
+[submodule "recipes2/packages/menuinst-feedstock"]
+	path = recipes2/packages/menuinst-feedstock
+	url = git@github.com:e8035669acarmv7/menuinst-feedstock.git
+	branch = main
+[submodule "recipes2/packages/frozendict-feedstock"]
+	path = recipes2/packages/frozendict-feedstock
+	url = git@github.com:e8035669acarmv7/frozendict-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/frozendict-2.4.2"]
+	path = recipes2/special_version/frozendict-2.4.2
+	url = git@github.com:e8035669acarmv7/frozendict-feedstock.git
+[submodule "recipes2/special_version/mamba-1.5.8"]
+	path = recipes2/special_version/mamba-1.5.8
+	url = git@github.com:e8035669acarmv7/mamba-feedstock.git
+[submodule "recipes2/special_version/libarchive-3.7.2"]
+	path = recipes2/special_version/libarchive-3.7.2
+	url = git@github.com:e8035669acarmv7/libarchive-feedstock.git
+[submodule "recipes2/special_version/curl-8.4.0"]
+	path = recipes2/special_version/curl-8.4.0
+	url = git@github.com:e8035669acarmv7/curl-feedstock.git
+[submodule "recipes2/special_version/lz4-c-1.9.3"]
+	path = recipes2/special_version/lz4-c-1.9.3
+	url = git@github.com:e8035669acarmv7/lz4-c-feedstock.git
+[submodule "recipes2/special_version/conda-23.11.0"]
+	path = recipes2/special_version/conda-23.11.0
+	url = git@github.com:e8035669acarmv7/conda-feedstock.git
+[submodule "recipes2/special_version/conda-23.7.4"]
+	path = recipes2/special_version/conda-23.7.4
+	url = git@github.com:e8035669acarmv7/conda-feedstock.git
+[submodule "recipes2/special_version/conda-build-24.3.0"]
+	path = recipes2/special_version/conda-build-24.3.0
+	url = git@github.com:e8035669acarmv7/conda-build-feedstock.git
+[submodule "recipes2/special_version/conda-build-3.28.4"]
+	path = recipes2/special_version/conda-build-3.28.4
+	url = git@github.com:e8035669acarmv7/conda-build-feedstock.git
+[submodule "recipes2/packages/rpds-py-feedstock"]
+	path = recipes2/packages/rpds-py-feedstock
+	url = git@github.com:e8035669acarmv7/rpds-py-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/rpds-py-0.18.0"]
+	path = recipes2/special_version/rpds-py-0.18.0
+	url = git@github.com:e8035669acarmv7/rpds-py-feedstock.git
+[submodule "recipes2/packages/maturin-feedstock"]
+	path = recipes2/packages/maturin-feedstock
+	url = git@github.com:e8035669acarmv7/maturin-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/maturin-1.5.1"]
+	path = recipes2/special_version/maturin-1.5.1
+	url = git@github.com:e8035669acarmv7/maturin-feedstock.git
 [submodule "recipes2/special_version/python-3.11"]
 	path = recipes2/special_version/python-3.11
 	url = git@github.com:e8035669acarmv7/python-feedstock.git
+	branch = 3.11
+[submodule "recipes2/packages/libxcrypt-feedstock"]
+	path = recipes2/packages/libxcrypt-feedstock
+	url = git@github.com:e8035669acarmv7/libxcrypt-feedstock.git
+	branch = main
+[submodule "recipes2/packages/zlib-feedstock"]
+	path = recipes2/packages/zlib-feedstock
+	url = git@github.com:e8035669acarmv7/zlib-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-libxdamage-feedstock"]
+	path = recipes2/packages/xorg-libxdamage-feedstock
+	url = git@github.com:e8035669acarmv7/xorg-libxdamage-feedstock.git
+	branch = main
+[submodule "recipes2/packages/xorg-libxxf86vm-feedstock"]
+	path = recipes2/packages/xorg-libxxf86vm-feedstock
+	url = git@github.com:e8035669acarmv7/xorg-libxxf86vm-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/lapack-3.9.0"]
+	path = recipes2/special_version/lapack-3.9.0
+	url = git@github.com:e8035669acarmv7/lapack-feedstock.git
+[submodule "recipes2/special_version/zlib-1.2"]
+	path = recipes2/special_version/zlib-1.2
+	url = git@github.com:e8035669acarmv7/zlib-feedstock.git
+[submodule "recipes2/packages/gettext-feedstock"]
+	path = recipes2/packages/gettext-feedstock
+	url = git@github.com:e8035669acarmv7/gettext-feedstock.git
+	branch = main
+[submodule "recipes2/packages/libidn2-feedstock"]
+	path = recipes2/packages/libidn2-feedstock
+	url = git@github.com:e8035669acarmv7/libidn2-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/micromamba-1.5.8"]
+	path = recipes2/special_version/micromamba-1.5.8
+	url = git@github.com:e8035669acarmv7/micromamba-feedstock.git
+[submodule "recipes2/special_version/ruby-3.1.2"]
+	path = recipes2/special_version/ruby-3.1.2
+	url = git@github.com:e8035669acarmv7/ruby-feedstock.git
+[submodule "recipes2/special_version/ruby-3.2.2"]
+	path = recipes2/special_version/ruby-3.2.2
+	url = git@github.com:e8035669acarmv7/ruby-feedstock.git
+[submodule "recipes2/packages/_openmp_mutex-feedstock"]
+	path = recipes2/packages/_openmp_mutex-feedstock
+	url = git@github.com:e8035669acarmv7/_openmp_mutex-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/svt-av1-2.1.0"]
+	path = recipes2/special_version/svt-av1-2.1.0
+	url = git@github.com:e8035669acarmv7/svt-av1-feedstock.git
+[submodule "recipes2/special_version/ffmpeg-5.x"]
+	path = recipes2/special_version/ffmpeg-5.x
+	url = git@github.com:e8035669acarmv7/ffmpeg-feedstock.git
+[submodule "recipes2/special_version/ffmpeg-6.x"]
+	path = recipes2/special_version/ffmpeg-6.x
+	url = git@github.com:e8035669acarmv7/ffmpeg-feedstock.git
+[submodule "recipes2/packages/pydantic-core-feedstock"]
+	path = recipes2/packages/pydantic-core-feedstock
+	url = git@github.com:e8035669acarmv7/pydantic-core-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/numpy-1.26"]
+	path = recipes2/special_version/numpy-1.26
+	url = git@github.com:e8035669acarmv7/numpy-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/cython-0.29.x"]
+	path = recipes2/special_version/cython-0.29.x
+	url = git@github.com:e8035669acarmv7/cython-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/libprotobuf-4.25.x"]
+	path = recipes2/special_version/libprotobuf-4.25.x
+	url = git@github.com:e8035669acarmv7/libprotobuf-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/geos-3.12.1"]
+	path = recipes2/special_version/geos-3.12.1
+	url = git@github.com:e8035669acarmv7/geos-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/ruamel.yaml-0.17.40"]
+	path = recipes2/special_version/ruamel.yaml-0.17.40
+	url = git@github.com:e8035669acarmv7/ruamel.yaml-feedstock.git
+	branch = main
+[submodule "recipes2/packages/simdjson-feedstock"]
+	path = recipes2/packages/simdjson-feedstock
+	url = git@github.com:e8035669acarmv7/simdjson-feedstock.git
+	branch = main
+[submodule "recipes2/packages/imath-feedstock"]
+	path = recipes2/packages/imath-feedstock
+	url = git@github.com:e8035669acarmv7/imath-feedstock.git
+	branch = main
+[submodule "recipes2/packages/openexr-feedstock"]
+	path = recipes2/packages/openexr-feedstock
+	url = git@github.com:e8035669acarmv7/openexr-feedstock.git
+	branch = main
+[submodule "recipes2/special_version/numpy-1.24"]
+	path = recipes2/special_version/numpy-1.24
+	url = git@github.com:e8035669acarmv7/numpy-feedstock.git
+	branch = main
+[submodule "recipes2/packages/compiler-rt-feedstock"]
+	path = recipes2/packages/compiler-rt-feedstock
+	url = git@github.com:e8035669acarmv7/compiler-rt-feedstock.git
+	branch = main
+[submodule "recipes2/packages/mpfr-feedstock"]
+	path = recipes2/packages/mpfr-feedstock
+	url = git@github.com:e8035669acarmv7/mpfr-feedstock.git
+	branch = main

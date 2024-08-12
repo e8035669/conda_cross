@@ -1,0 +1,14 @@
+# conda-forge-ci-setup-feedstock/
+# gdb-feedstock/
+!! graphviz-feedstock/
+onnxruntime-feedstock/
+openvino-feedstock/
+pydot-feedstock/
+pytorch-cpu-feedstock/
+!! ruby-feedstock/
+
+
+expat
+harfbuzz
+fontconfig
+cairo

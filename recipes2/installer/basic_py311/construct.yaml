@@ -1,5 +1,5 @@
 name: conda4arm
-version: 1.0.5
+version: 1.0.7
 
 channels:
   - e8035669acarmv7
@@ -17,7 +17,7 @@ write_condarc: True
 initialize_by_default: False
 
 specs:
-  - python
+  - python=3.11
   - conda
   - pip
 
